@@ -27,18 +27,18 @@ A modular, rule-based chatbot that uses **advanced Regular Expressions** with na
 ## 📁 Project Structure
 
 ```
-regex_chatbot/
+.
 ├── engine/                      ← Core chatbot engine (modular)
 │   ├── __init__.py              ← ChatEngine orchestrator class
 │   ├── preprocessor.py          ← Input normalization, language detection, intent classification
 │   ├── matcher.py               ← RegexMatcher (primary) + KeywordMatcher (fallback)
 │   ├── response_builder.py      ← Dynamic response rendering, follow-ups, confidence labels
 │   └── context.py               ← Conversation memory, follow-up resolution
-├── qa_data/                     ← Q&A data (one JSON per team member)
-│   ├── sanal_qa.json            ← IDs 1–17 (English, Malayalam)
-│   ├── defitha_qa.json          ← IDs D1–D15 (English, Tamil)
-│   ├── evengiline_qa.json       ← IDs E1–E15 (English, Kannada)
-│   └── nasreen_qa.json          ← IDs N1–N15 (English, Hindi)
+├── qa_data/                     ← Q&A data (mapped to team members)
+│   ├── qa_1.json                ← Defitha (IDs D1–D15, English & Tamil)
+│   ├── qa_2.json                ← Evengiline (IDs E1–E15, English & Kannada)
+│   ├── qa_3.json                ← Sanal (IDs 1–17, English & Malayalam)
+│   └── qa_4.json                ← Nasreen (IDs N1–N15, English & Hindi)
 ├── regex_chatbot.ipynb          ← Jupyter Notebook (primary evaluation artifact)
 ├── chatbot.py                   ← Streamlit Web App
 ├── requirements.txt             ← Dependencies
@@ -96,7 +96,6 @@ User Input → Preprocessor → Context Resolver → Regex Matcher → Response 
 
 ```bash
 pip install streamlit
-cd regex_chatbot
 streamlit run chatbot.py
 ```
 
@@ -140,9 +139,9 @@ Only `id`, `question`, `pattern`, and `answer` are required. All other fields ar
 
 ## 👥 Team Members
 
-| Name       | File                  | IDs    | Languages          |
-|------------|----------------------|--------|-------------------|
-| Sanal      | `sanal_qa.json`      | 1–17   | English, Malayalam |
-| Defitha    | `defitha_qa.json`    | D1–D15 | English, Tamil     |
-| Evengiline | `evengiline_qa.json` | E1–E15 | English, Kannada   |
-| Nasreen    | `nasreen_qa.json`    | N1–N15 | English, Hindi     |
+| Name       | File        | IDs    | Languages          |
+|------------|-------------|--------|-------------------|
+| Defitha    | `qa_1.json` | D1–D15 | English, Tamil     |
+| Evengiline | `qa_2.json` | E1–E15 | English, Kannada   |
+| Sanal      | `qa_3.json` | 1–17   | English, Malayalam |
+| Nasreen    | `qa_4.json` | N1–N15 | English, Hindi     |
