@@ -1,0 +1,289 @@
+[
+  {
+    "id": "D1",
+    "question": "When will the examination timetable be released?",
+    "category": "EXAMINATION",
+    "related_ids": [
+      "D2",
+      "D3"
+    ],
+    "sample_queries": [
+      "When will the exam timetable be released?",
+      "When is the examination schedule coming out?",
+      "Where can I find the exam timetable?",
+      "How do I check my examination timetable?",
+      "When will the exam schedule be published?",
+      "Is the examination timetable out yet?"
+    ],
+    "pattern": "(?:exam(?:ination)?\\s*(?:time\\s*table|schedule)).*(?:release|publish|out|available|coming|check|find|when|where)|(?:release|publish|when|where|find|check).*(?:exam(?:ination)?\\s*(?:time\\s*table|schedule))|^exam(?:ination)?\\s*(?:time\\s*table|schedule)\\s*[?!.]*$",
+    "answer": "The examination timetable is generally published through the Office of Examinations and the student portal. Students should regularly check official university announcements for updates."
+  },
+  {
+    "id": "D2",
+    "question": "Where can I find previous question papers?",
+    "category": "EXAMINATION",
+    "related_ids": [
+      "D1",
+      "D4"
+    ],
+    "sample_queries": [
+      "Where can I get previous question papers?",
+      "How to access old question papers?",
+      "Where are past exam papers available?",
+      "Can I download previous year question papers?",
+      "Where to find old exam papers?",
+      "Does the university provide previous question papers?"
+    ],
+    "pattern": "(?:previous|old|past|last\\s*year).*(?:question\\s*papers?|exam\\s*papers?|papers?)|(?:question\\s*papers?|exam\\s*papers?).*(?:previous|old|past|find|access|download|available|where)|digital\\s*repository.*questions|^(?:question\\s*papers?|past\\s*papers?)\\s*[?!.]*$",
+    "answer": "Students can access previous question papers through the Digital Repository of Questions maintained by the Office of Examinations."
+  },
+  {
+    "id": "D3",
+    "question": "Who should I contact for examination-related issues?",
+    "category": "EXAMINATION",
+    "related_ids": [
+      "D1",
+      "D5"
+    ],
+    "sample_queries": [
+      "Who do I contact for exam issues?",
+      "Where to go for examination problems?",
+      "Who handles examination complaints?",
+      "How to contact the examination office?",
+      "Who should I reach out to for exam-related queries?",
+      "Where can I get help with examination issues?"
+    ],
+    "pattern": "(?:contact|reach|go|help|handle).*(?:exam(?:ination)?\\s*(?:issues?|problems?|complaints?|quer|support|related|office))|(?:exam(?:ination)?\\s*(?:issues?|problems?|complaints?|quer|support|office)).*(?:contact|reach|who|where|how)|(?:controller|front\\s*office).*(?:exam)",
+    "answer": "Students may contact the Front Office of the Controller of Examinations for examination-related support and guidance."
+  },
+  {
+    "id": "D4",
+    "question": "How are answer scripts evaluated?",
+    "category": "EXAMINATION",
+    "related_ids": [
+      "D2",
+      "D5"
+    ],
+    "sample_queries": [
+      "How are exam papers evaluated?",
+      "What is the evaluation process for answer scripts?",
+      "How does the university evaluate answer sheets?",
+      "Tell me about the evaluation process.",
+      "How are answer sheets assessed?",
+      "What is the process for evaluating exam papers?"
+    ],
+    "pattern": "(?:answer\\s*scripts?|answer\\s*sheets?|exam\\s*papers?).*(?:evaluat|assess|process|check|correct)|(?:evaluat|assess).*(?:answer\\s*scripts?|answer\\s*sheets?|exam\\s*papers?)|(?:evaluation\\s*(?:process|unit))|^evaluation\\s*[?!.]*$",
+    "answer": "Answer scripts are processed and assessed through the Evaluation Unit under the Office of Examinations to ensure fair and accurate evaluation."
+  },
+  {
+    "id": "D5",
+    "question": "What units are part of the Office of Examinations?",
+    "category": "EXAMINATION",
+    "related_ids": [
+      "D3",
+      "D4"
+    ],
+    "sample_queries": [
+      "What are the units in the Office of Examinations?",
+      "Which departments are under the Office of Examinations?",
+      "Tell me about the Office of Examinations structure.",
+      "What sections does the examination office have?",
+      "What is included in the Office of Examinations?",
+      "List the units of the Office of Examinations."
+    ],
+    "pattern": "(?:units?|sections?|departments?|structure|parts?|included?).*(?:office\\s*of\\s*exam(?:ination)?s?)|(?:office\\s*of\\s*exam(?:ination)?s?).*(?:units?|sections?|departments?|structure|parts?|include|consist|have|what)|(?:front\\s*office|printing\\s*unit|tabulation\\s*unit|evaluation\\s*unit|digital\\s*repository).*(?:exam)",
+    "answer": "The Office of Examinations includes the Front Office, Digital Repository of Questions, Printing Unit, Evaluation Unit, and Tabulation Unit."
+  },
+  {
+    "id": "D6",
+    "question": "When do campus placements usually begin?",
+    "category": "PLACEMENT",
+    "related_ids": [
+      "D7",
+      "D8",
+      "D9"
+    ],
+    "sample_queries": [
+      "When do placements start?",
+      "When does campus placement begin?",
+      "What is the placement schedule?",
+      "When are placement drives conducted?",
+      "When do campus recruitment activities start?",
+      "Tell me about the placement timeline."
+    ],
+    "pattern": "(?:when|schedule|timeline).*(?:placement|campus\\s*recruit)|(?:placement|campus\\s*recruit).*(?:when|start|begin|schedule|timeline|conducted)|^placement[s]?\\s*(?:schedule|timeline)?\\s*[?!.]*$",
+    "answer": "Placement activities are conducted every academic year and notifications are shared by the Centre for Placement and Career Guidance."
+  },
+  {
+    "id": "D7",
+    "question": "How can I register for placement drives?",
+    "category": "PLACEMENT",
+    "related_ids": [
+      "D6",
+      "D8"
+    ],
+    "sample_queries": [
+      "How to register for placements?",
+      "How do I sign up for campus placement drives?",
+      "What is the process for placement registration?",
+      "How can students register for placement?",
+      "How to apply for campus placement drives?",
+      "Where do I register for placement?"
+    ],
+    "pattern": "(?:register|sign\\s*up|apply|enroll).*(?:placement|campus\\s*recruit|placement\\s*drives?)|(?:placement|campus\\s*recruit).*(?:register|sign\\s*up|apply|enroll|how)|(?:placement\\s*registration)",
+    "answer": "Students can register for placement drives based on instructions and notifications issued by the Placement Office."
+  },
+  {
+    "id": "D8",
+    "question": "What rounds are usually included in campus recruitment?",
+    "category": "PLACEMENT",
+    "related_ids": [
+      "D6",
+      "D9"
+    ],
+    "sample_queries": [
+      "What are the rounds in campus placement?",
+      "What is the recruitment process?",
+      "What stages are involved in campus recruitment?",
+      "Tell me the placement rounds.",
+      "What happens during campus recruitment?",
+      "What tests are part of campus placements?"
+    ],
+    "pattern": "(?:rounds?|stages?|process|steps?|tests?|happen).*(?:campus\\s*recruit|placement|recruitment)|(?:campus\\s*recruit|placement|recruitment).*(?:rounds?|stages?|process|steps?|involve|include|happen|what)|(?:aptitude|group\\s*discussion|technical\\s*interview|hr\\s*interview).*(?:placement|recruitment)",
+    "answer": "Campus recruitment generally includes aptitude tests, group discussions, technical interviews, and HR interviews."
+  },
+  {
+    "id": "D9",
+    "question": "Who helps students prepare for placements?",
+    "category": "PLACEMENT",
+    "related_ids": [
+      "D6",
+      "D7"
+    ],
+    "sample_queries": [
+      "Who helps with placement preparation?",
+      "Is there placement training at CHRIST?",
+      "Does the university provide placement support?",
+      "Who conducts placement training?",
+      "Tell me about the placement preparation support.",
+      "What kind of career guidance is available?"
+    ],
+    "pattern": "(?:placement|career).*(?:prepar|training|support|help|guidance|workshop|available)|(?:prepar|training|support|help|guidance|workshop).*(?:placement|career)|(?:career\\s*guidance|skill\\s*development).*(?:placement|students?|available)|(?:centre\\s*for\\s*placement)|(?:what\\s*kind).*(?:career|guidance)",
+    "answer": "The Centre for Placement and Career Guidance supports students through placement training, career guidance sessions, workshops, and skill development activities."
+  },
+  {
+    "id": "D10",
+    "question": "What is IQAC?",
+    "category": "ACADEMICS",
+    "related_ids": [
+      "D13"
+    ],
+    "sample_queries": [
+      "What does IQAC stand for?",
+      "Tell me about IQAC.",
+      "What is the role of IQAC?",
+      "What does IQAC do?",
+      "Explain IQAC.",
+      "What is Internal Quality Assurance Cell?"
+    ],
+    "pattern": "(?:what|tell|explain|role|purpose).*(?:iqac|internal\\s*quality\\s*assurance)|(?:iqac|internal\\s*quality\\s*assurance).*(?:what|stand|mean|role|purpose|do)|^iqac\\s*[?!.]*$",
+    "answer": "IQAC stands for Internal Quality Assurance Cell. It focuses on maintaining and improving academic and administrative quality standards within the university."
+  },
+  {
+    "id": "D11",
+    "question": "மதிப்பெண் பட்டியல் எப்போது வெளியிடப்படும்?",
+    "question_english": "When will the result sheet be published?",
+    "category": "EXAMINATION",
+    "related_ids": [
+      "D1",
+      "D4"
+    ],
+    "sample_queries": [
+      "மதிப்பெண் பட்டியல் எப்போது வெளியிடப்படும்?",
+      "தேர்வு முடிவுகள் எப்போது வெளியாகும்?",
+      "ரிசல்ட் எப்போது வரும்?",
+      "When will results be published?",
+      "When is the result sheet coming?",
+      "When will exam results be announced?"
+    ],
+    "pattern": "(மதிப்பெண்|பட்டியல்|தேர்வு\\s*முடிவு|ரிசல்ட்).*(வெளியிட|எப்போது)|(result\\s*sheet|results?).*(?:publish|when|coming|announced|released)|(?:when).*(?:result|marks)",
+    "answer": "மதிப்பெண் பட்டியல் பல்கலைக்கழகத்தின் தேர்வு பிரிவின் அறிவிப்புகளின் மூலம் வெளியிடப்படும்.\n\n(English) The result sheet will be published through official notifications from the University's Examination Office."
+  },
+  {
+    "id": "D12",
+    "question": "கேம்பஸ் நேர்முகத் தேர்வில் கலந்து கொள்ள குறைந்தபட்ச தகுதி என்ன?",
+    "question_english": "What is the minimum eligibility to attend campus interviews?",
+    "category": "PLACEMENT",
+    "related_ids": [
+      "D6",
+      "D8"
+    ],
+    "sample_queries": [
+      "கேம்பஸ் நேர்முகத் தேர்வில் கலந்து கொள்ள தகுதி என்ன?",
+      "பிளேஸ்மெண்ட் தகுதி என்ன?",
+      "கேம்பஸ் இண்டர்வியூவுக்கு தகுதி என்ன?",
+      "What is the eligibility for campus interviews?",
+      "What are the minimum requirements for placements?",
+      "Am I eligible for campus placement?"
+    ],
+    "pattern": "(கேம்பஸ்|நேர்முகத்|பிளேஸ்மெண்ட்|தகுதி).*(தகுதி|கலந்து|என்ன)|(?:eligib|minimum|requirements?).*(?:campus\\s*interview|placement)|(?:campus\\s*interview|placement).*(?:eligib|minimum|requirements?|eligible)",
+    "answer": "தகுதிகள் நிறுவனத்திற்கேற்ப மாறுபடும். மாணவர்கள் Placement Cell அறிவிப்புகளைப் பார்க்க வேண்டும்.\n\n(English) Eligibility criteria vary depending on the recruiting company. Students should refer to Placement Cell notifications."
+  },
+  {
+    "id": "D13",
+    "question": "தரமான கல்வியை உறுதி செய்வதில் IQAC எப்படி செயல்படுகிறது?",
+    "question_english": "How does IQAC help ensure quality education?",
+    "category": "ACADEMICS",
+    "related_ids": [
+      "D10"
+    ],
+    "sample_queries": [
+      "IQAC எப்படி செயல்படுகிறது?",
+      "கல்வித் தரத்தை IQAC எப்படி மேம்படுத்துகிறது?",
+      "IQAC தரமான கல்வியை எவ்வாறு உறுதி செய்கிறது?",
+      "How does IQAC ensure quality?",
+      "What does IQAC do for quality education?",
+      "How does IQAC improve education quality?"
+    ],
+    "pattern": "(?:iqac).*(?:quality|கல்வி|தரம|செயல்படு|ensure|improve|help|மேம்படுத்து)|(?:quality\\s*education|கல்வித்\\s*தரம|கல்வித்தரத்தை).*(?:iqac)|(?:தரமான\\s*கல்வி|quality).*(?:iqac|assurance)",
+    "answer": "IQAC கல்வித் தரத்தை மேம்படுத்த கருத்து சேகரிப்பு, தர ஆய்வு மற்றும் தொடர்ச்சியான மேம்பாட்டு நடவடிக்கைகளை மேற்கொள்கிறது.\n\n(English) IQAC improves educational quality through feedback collection, quality reviews, and continuous improvement initiatives."
+  },
+  {
+    "id": "D14",
+    "question": "மாணவர்களின் ஆராய்ச்சி நடவடிக்கைகளுக்கு எந்த மையங்கள் உதவுகின்றன?",
+    "question_english": "Which centres support student research activities?",
+    "category": "RESEARCH",
+    "related_ids": [
+      "D13"
+    ],
+    "sample_queries": [
+      "மாணவர்களின் ஆராய்ச்சிக்கு எந்த மையங்கள் உதவுகின்றன?",
+      "ஆராய்ச்சி நடவடிக்கைகளுக்கு ஆதரவு எங்கே?",
+      "Which centres support research?",
+      "Where can students get research support?",
+      "What research centres are available for students?",
+      "Who supports student research activities?"
+    ],
+    "pattern": "(?:centres?|மையங்கள்|cells?).*(?:research|ஆராய்ச்சி|support)|(?:research|ஆராய்ச்சி).*(?:centres?|மையங்கள்|cells?|support|available|who|where)|(?:student\\s*research|மாணவர்.*ஆராய்ச்சி).*(?:support|உதவு|centres?)|(?:who\\s+supports?).*(?:research)|(?:research\\s*support).*(?:where|available)|(?:ஆதரவு).*(?:எங்கே)",
+    "answer": "பல்வேறு Centres மற்றும் Research Cells மாணவர்களின் ஆராய்ச்சி மற்றும் புதுமை முயற்சிகளுக்கு ஆதரவு வழங்குகின்றன.\n\n(English) Various Centres and Research Cells support students in research and innovation activities."
+  },
+  {
+    "id": "D15",
+    "question": "பல்கலைக்கழக நிகழ்ச்சிகள் மற்றும் பயிற்சிகள் பற்றிய தகவல்களை எங்கே பெறலாம்?",
+    "question_english": "Where can students get information about university events and training programs?",
+    "category": "STUDENT_LIFE",
+    "related_ids": [
+      "D9"
+    ],
+    "sample_queries": [
+      "பல்கலைக்கழக நிகழ்ச்சிகள் பற்றிய தகவல்கள் எங்கே?",
+      "பயிற்சி நிகழ்ச்சிகள் பற்றி எங்கே தெரிந்து கொள்வது?",
+      "Where can I find information about university events?",
+      "How to know about training programs?",
+      "Where are university events announced?",
+      "How to get updates on university events and workshops?"
+    ],
+    "pattern": "(?:university\\s*events?|நிகழ்ச்சிகள்|training\\s*programs?|பயிற்சி|workshops?).*(?:information|தகவல்|where|எங்கே|find|announced|updates?|know)|(?:information|தகவல்|where|எங்கே|how\\s*to\\s*(?:know|get)).*(?:university\\s*events?|நிகழ்ச்சிகள்|training\\s*programs?|பயிற்சி|workshops?|events?\\s*and)|(?:events?\\s*and\\s*training|நிகழ்ச்சிகள்\\s*மற்றும்\\s*பயிற்சி)",
+    "answer": "மாணவர்கள் பல்கலைக்கழக இணையதளம், அறிவிப்பு பலகை மற்றும் தொடர்புடைய மையங்களின் அறிவிப்புகள் மூலம் தகவல்களை பெறலாம்.\n\n(English) Students can obtain information through the university website, notice boards, and announcements from relevant centres."
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "id": 1,
+    "question": "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റി ഓൺലൈൻ ആയി നൽകുന്ന കോഴ്‌സുകൾ ഏതൊക്കെയാണ്?",
+    "question_english": "What online courses are offered by CHRIST University?",
+    "category": "ACADEMICS",
+    "related_ids": [
+      2,
+      3
+    ],
+    "sample_queries": [
+      "ഓൺലൈൻ കോഴ്‌സുകൾ ഏതൊക്കെയാണ്?",
+      "ക്രൈസ്റ്റ് ഓൺലൈൻ പ്രോഗ്രാമുകൾ എന്തൊക്കെയാണ്?",
+      "ക്രൈസ്റ്റ് ഓൺലൈൻ ഡിഗ്രികൾ ലഭ്യമാണോ?",
+      "ഓൺലൈനായി പഠിക്കാനാകുന്ന കോഴ്‌സുകൾ ഏതൊക്കെയാണ്?",
+      "CHRIST Online എന്തെല്ലാം കോഴ്‌സുകൾ നൽകുന്നു?",
+      "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിയിലെ ഓൺലൈൻ പഠന പരിപാടികൾ ഏതൊക്കെയാണ്?",
+      "ഓൺലൈൻ ബിരുദ കോഴ്‌സുകൾ ലഭ്യമാണോ?",
+      "ഓൺലൈൻ പി.ജി. കോഴ്‌സുകൾ എന്തൊക്കെയാണ്?",
+      "ക്രൈസ്റ്റ് ഓൺലൈൻ വഴി പഠിക്കാവുന്ന പ്രോഗ്രാമുകൾ പറയൂ",
+      "ഓൺലൈൻ കോഴ്‌സുകളുടെ പട്ടിക നൽകൂ"
+    ],
+    "pattern": "(ഓൺലൈൻ|ഇ-ലേണിംഗ്|ദൂരപഠനം).*(കോഴ്‌സ്|കോഴ്‌സുകൾ|പ്രോഗ്രാം|പ്രോഗ്രാമുകൾ|ഡിഗ്രി|ഡിഗ്രികൾ|പഠനം)|(ക്രൈസ്റ്റ്\\s*ഓൺലൈൻ).*(കോഴ്‌സ്|പ്രോഗ്രാം|ഓഫർ|നൽകുന്നു)|(എന്ത്|ഏത്|ഏതൊക്കെ|പട്ടിക).*(ഓൺലൈൻ\\s*(കോഴ്‌സ്|പ്രോഗ്രാം)|കോഴ്‌സ്\\s*ഓൺലൈൻ)",
+    "answer": "ക്രൈസ്റ്റ് ഓൺലൈൻ (CHRIST Online) വിവിധ ബിരുദ, ബിരുദാനന്തര ബിരുദ പ്രോഗ്രാമുകൾ നൽകുന്നു. പ്രധാനമായും ലഭ്യമായ കോഴ്‌സുകൾ:\n\n• BBA (Bachelor of Business Administration)\n• BCom (Bachelor of Commerce)\n• BCA (Bachelor of Computer Applications)\n• MCom (Master of Commerce)\n• MCA (Master of Computer Applications)\n• MA Applied Economics\n• MA English with Communication Studies\n• MSc Artificial Intelligence and Machine Learning\n• MSc Data Science\n\nപ്രോഗ്രാമുകളുടെ ലഭ്യത, യോഗ്യതാ മാനദണ്ഡങ്ങൾ, ഫീസ് ഘടന എന്നിവ കാലാനുസൃതമായി മാറാൻ സാധ്യതയുള്ളതിനാൽ, ഏറ്റവും പുതിയ വിവരങ്ങൾക്കായി CHRIST Online ഔദ്യോഗിക വെബ്സൈറ്റ് പരിശോധിക്കുന്നത് നല്ലതാണ്.\n\n---\n\n(English) CHRIST Online offers a variety of undergraduate and postgraduate programs, including:\n\n• BBA (Bachelor of Business Administration)\n• BCom (Bachelor of Commerce)\n• BCA (Bachelor of Computer Applications)\n• MCom (Master of Commerce)\n• MCA (Master of Computer Applications)\n• MA Applied Economics\n• MA English with Communication Studies\n• MSc Artificial Intelligence and Machine Learning\n• MSc Data Science\n\nProgram availability, eligibility criteria, and fee structures may change over time. Students are advised to refer to the official CHRIST Online website for the most up-to-date information."
+  },
+  {
+    "id": 2,
+    "question": "What is the admission process for CHRIST Online?",
+    "category": "ADMISSION",
+    "related_ids": [
+      1,
+      3
+    ],
+    "sample_queries": [
+      "What is the admission process?",
+      "How can I apply for CHRIST Online?",
+      "How do I get admission in CHRIST Online?",
+      "What are the steps for admission?",
+      "Explain the admission process.",
+      "How to enroll in CHRIST Online?"
+    ],
+    "pattern": "(?:admission\\s*process|how.*(?:apply|admission|enroll).*(?:christ|online)|steps.*admission|apply.*christ\\s*online|christ\\s*online.*(?:admission|apply|enroll))|(?=.*(?:admission|apply|enroll))(?=.*(?:christ|online).*(?:process|how|steps?)).+",
+    "answer": "The CHRIST Online admission process includes choosing your programme, filling out the application form, eligibility verification by the university, selection process, waiting for enrollment details, fee payment after selection, and receiving university credentials and the welcome kit."
+  },
+  {
+    "id": 3,
+    "question": "What are the fees and duration of CHRIST Online courses?",
+    "category": "ACADEMICS",
+    "related_ids": [
+      1,
+      2
+    ],
+    "sample_queries": [
+      "What is the fee and duration of online courses?",
+      "How much are the fees for CHRIST Online courses?",
+      "What is the duration and fee structure?",
+      "Tell me the fees and duration of online programs.",
+      "How long are the online courses and what are the fees?",
+      "What are the course fees and duration in CHRIST Online?",
+      "What is the fee for BBA?",
+      "How much does BCA cost?",
+      "MCA fees and duration"
+    ],
+    "answer_template": "The {programme} programme has a fee of {fee} and a duration of {duration}.",
+    "data": {
+      "BBA": {
+        "programme": "BBA",
+        "fee": "Rs. 1,00,000",
+        "duration": "3 years"
+      },
+      "BCA": {
+        "programme": "BCA",
+        "fee": "Rs. 55,485",
+        "duration": "3 years"
+      },
+      "MCOM": {
+        "programme": "MCom",
+        "fee": "Rs. 50,000",
+        "duration": "2 years"
+      },
+      "MCA": {
+        "programme": "MCA",
+        "fee": "Rs. 1,09,250",
+        "duration": "2 years"
+      },
+      "BCOM": {
+        "programme": "BCom",
+        "fee": "Rs. 80,000",
+        "duration": "3 years"
+      },
+      "MA": {
+        "programme": "MA",
+        "fee": "Rs. 60,000",
+        "duration": "2 years"
+      },
+      "MSC": {
+        "programme": "MSc",
+        "fee": "Rs. 75,000",
+        "duration": "2 years"
+      }
+    },
+    "pattern": "(?=.*(?:fees?|cost|price|charges?|how\\s*much))(?=.*(?:duration|years?|length|how\\s*long)).+|(?:fee\\s*structure)|(?:how\\s*much).*(?:fees?|cost)|(?P<programme>bba|bca|mca|mcom|bcom|ma|msc)\\s*.*(?:fees?|cost|duration|years?)|(?:fees?|cost|duration).*(?P<prog2>bba|bca|mca|mcom|bcom)|(?:fees?).*(?:christ\\s*online|online\\s*courses?)",
+    "answer": "The fees and duration vary depending on the course in CHRIST Online. For example, BBA is 3 years with a fee of Rs. 1,00,000, BCA is 3 years with a fee of Rs. 55,485, MCom is 2 years with a fee of Rs. 50,000, and MCA is 2 years with a fee of Rs. 1,09,250."
+  },
+  {
+    "id": 4,
+    "question": "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിയിൽ ഹോസ്റ്റൽ സൗകര്യങ്ങൾ ലഭ്യമാണോ?",
+    "category": "HOSTEL",
+    "related_ids": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "sample_queries": [
+      "Is hostel available in CHRIST University?",
+      "Does CHRIST University provide hostel facilities?",
+      "Are hostels available for students?",
+      "Tell me about hostel accommodation.",
+      "Is accommodation available for boys and girls?",
+      "Does CHRIST have separate hostels for boys and girls?",
+      "ഹോസ്റ്റൽ ലഭ്യമാണോ?",
+      "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിയിൽ ഹോസ്റ്റൽ സൗകര്യങ്ങൾ ഉണ്ടോ?",
+      "താമസ സൗകര്യം ലഭ്യമാണോ?",
+      "ഹോസ്റ്റൽ",
+      "താമസസൗകര്യം"
+    ],
+    "pattern": "^(?!.*(?:girls?|boys?|female|male|women|men|പെൺകുട്ടി|ആൺകുട്ടി|ഗേൾസ്|ബോയ്സ്).*(?:central|സെൻട്രൽ)).*?(?:(?:hostel|accom[m]?od[ae]tion|residence\\s*hall).*(?:available|provide|offer|facilit)|(?:is\\s+there|does|do).*(?:hostel|accom[m]?od[ae]tion)|(?P<gender>boys?|girls?|male|female).*(?:hostel)|(?:separate).*(?:hostel)|(?:tell\\s*me\\s*about).*(?:hostel|accom[m]?od[ae]tion)|^hostel[s]?\\s*[?!.]*$|^accom[m]?od[ae]tion\\s*[?!.]*$|(?:ഹോസ്റ്റ(ൽ|ല|ലു)|താമസ|താമസസൗകര്യം).*(?:ലഭ്യ|ഉണ്ടോ|സൗകര്യം)|^ഹോസ്റ്റ(ൽ|ല|ലു)\\s*[?!.]*$[a-z]*|(?:hostel|accom[m]?od[ae]tion|residence|pg).*(?:central))",
+    "conditional_answers": {
+      "boy|boys|male": "Yes! The boys' hostel at CHRIST University is called Devadan Hall (Kengeri Campus). It offers twin, triple, and four-sharing rooms with Wi-Fi, gym, TV, study space, and 24/7 biometric security. Hostel admission is on a first-come, first-served basis.",
+      "girl|girls|female": "Yes! The girls' hostel at CHRIST University is called CHRIST Hall (Kengeri Campus). It offers twin and triple-sharing rooms with Wi-Fi, gym, TV, study space, and 24/7 biometric security. Hostel admission is on a first-come, first-served basis."
+    },
+    "answer": "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റി ഹോസ്റ്റൽ സൗകര്യങ്ങൾ നൽകുന്നുണ്ട്. കെങ്ങേരി ക്യാമ്പസിൽ വിദ്യാർത്ഥികൾക്കായി റെസിഡൻസ് ഹാളുകൾ ലഭ്യമാണ് (ആൺകുട്ടികൾക്കായി ദേവദാസ് ഹാളും പെൺകുട്ടികൾക്കായി ക്രൈസ്റ്റ് ഹാളും). ബെംഗളൂരു സെൻട്രൽ ക്യാമ്പസിന് സമീപം താമസിക്കാൻ താല്പര്യമുള്ളവർക്ക് സമീപമുള്ള ശുപാർശ ചെയ്യുന്ന പി.ജി./ഹോസ്റ്റലുകൾ തിരഞ്ഞെടുക്കാം.\n\nആൺകുട്ടികളുടെയോ പെൺകുട്ടികളുടെയോ ഹോസ്റ്റലുകളുടെ വിവരങ്ങൾക്കായി ദയവായി 'പെൺകുട്ടികളുടെ ഹോസ്റ്റൽ' അല്ലെങ്കിൽ 'ആൺകുട്ടികളുടെ ഹോസ്റ്റൽ' എന്ന് ചോദിക്കുക.\n\n---\n\n(English) Yes, CHRIST University provides hostel and accommodation facilities for students through well-furnished residence halls. Separate hostel facilities are available for boys and girls. Hostel admission is offered on a first-come, first-served basis after confirming admission to a programme. Please note that mess facilities are not available inside the residence halls, but students can use cafeterias and eateries on campus.",
+    "question_english": "Are hostel facilities available at CHRIST University?"
+  },
+  {
+    "id": 5,
+    "question": "What facilities are available in the hostels at CHRIST University Kengeri Campus?",
+    "category": "HOSTEL",
+    "related_ids": [
+      4,
+      6,
+      7
+    ],
+    "sample_queries": [
+      "What facilities are available in the hostel?",
+      "What amenities are provided in the boys hostel?",
+      "What amenities are available for female students?",
+      "Does the hostel have Wi-Fi and gym?",
+      "What are the hostel amenities?",
+      "What facilities do the hostels offer?",
+      "Tell me about hostel facilities."
+    ],
+    "pattern": "^(?!.*(?:central|സെൻട്രൽ)).*?(?:(?=.*(?:hostel|devadan|christ\\s*hall|boys\\s*hostel|girls\\s*hostel|residence))(?=.*(?:facilit|amenit|wi-?fi|gym|security|biometric|room)).+|(?:hostel|devadan|christ\\s*hall).*(?:facilit|amenit|available)|(?:facilit|amenit).*(?:hostel|devadan|christ\\s*hall)|(?P<gender2>boys?|girls?|male|female).*(?:amenit|facilit|students?)|(?:what\\s+amenit).*(?:available))",
+    "answer": "The hostels at CHRIST University Kengeri Campus offer well-furnished rooms in twin, triple, and four-sharing configurations. Facilities include Wi-Fi, television, gym access, study space, prayer hall, library access, and 24/7 security with a biometric entry system. Separate hostel facilities are available for boys and girls."
+  },
+  {
+    "id": 6,
+    "question": "What is the admission process for hostels at CHRIST University Kengeri Campus?",
+    "category": "HOSTEL",
+    "related_ids": [
+      4,
+      5,
+      7
+    ],
+    "sample_queries": [
+      "What is the hostel admission process?",
+      "How can I apply for hostel?",
+      "How do I get hostel admission in CHRIST University?",
+      "Tell me about hostel admission.",
+      "What are the steps for hostel registration?",
+      "How to register for hostel at CHRIST?"
+    ],
+    "pattern": "^(?!.*(?:central|സെൻട്രൽ)).*?(?:(?:hostel).*(?:admission|apply|process|register|step)|(?:admission|apply|process|register).*(?:hostel)|(?:how).*(?:apply|get|register).*(?:hostel))",
+    "answer": "Students can apply for hostel facilities only after securing admission to a programme at CHRIST University Kengeri Campus. The hostel admission process is on a first-come, first-served basis and includes submitting an online hostel application form through the university portal. After the application is reviewed and approved, students receive confirmation and can proceed with fee payment to secure their hostel accommodation."
+  },
+  {
+    "id": 7,
+    "question": "What is the fee structure for boys' and girls' hostels at CHRIST University Kengeri Campus?",
+    "category": "HOSTEL",
+    "related_ids": [
+      4,
+      5,
+      6
+    ],
+    "sample_queries": [
+      "What are the hostel fees?",
+      "Tell me about hostel fees.",
+      "What is the fee structure for hostel?",
+      "hostel fee for boys",
+      "girls hostel fee",
+      "How much does the hostel cost?",
+      "hostel charges at CHRIST"
+    ],
+    "pattern": "^(?!.*(?:central|സെൻട്രൽ)).*?(?:(?:hostel).*(?:fees?|fee\\s*structure|cost|charges?|price|how\\s*much)|(?:fees?|fee\\s*structure|cost|charges?|how\\s*much).*(?:hostel)|(?=.*hostel)(?=.*(?:fee|cost|price|charges?)).+)",
+    "conditional_answers": {
+      "boy|boys|male": "For boys in Devadan Hall (Kengeri Campus), hostel fees range from Rs. 72,112 for four-sharing to Rs. 1,20,020 for twin-sharing rooms. An application processing fee of Rs. 300 is also applicable.",
+      "girl|girls|female": "For girls in CHRIST Hall (Kengeri Campus), hostel fees range from Rs. 76,036 for triple-sharing to Rs. 91,022 for twin-sharing rooms. An application processing fee of Rs. 300 is also applicable."
+    },
+    "answer": "Hostel fees at CHRIST University Kengeri Campus vary based on room type and gender. For boys in Devadan Hall, fees range from Rs. 72,112 for four-sharing to Rs. 1,20,020 for twin-sharing rooms. For girls in CHRIST Hall, fees range from Rs. 76,036 for triple-sharing to Rs. 91,022 for twin-sharing rooms. An application processing fee of Rs. 300 is also applicable for all students."
+  },
+  {
+    "id": 8,
+    "question": "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റി ബെംഗളൂരു സെന്റ്രൽ ക്യാമ്പസിന് സമീപം പെൺകുട്ടികൾക്കായി ലഭ്യമായ ഹോസ്റ്റൽ/താമസ സൗകര്യങ്ങൾ എന്തൊക്കെയാണ്?",
+    "question_english": "What accommodation or hostel options are available for female students near CHRIST University Bangalore Central Campus?",
+    "category": "HOSTEL",
+    "related_ids": [
+      4,
+      10
+    ],
+    "sample_queries": [
+      "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിക്ക് സമീപം പെൺകുട്ടികൾക്ക് എന്തെല്ലാം ഹോസ്റ്റലുകൾ ഉണ്ട്?",
+      "ക്രൈസ്റ്റ് ബെംഗളൂരു സെന്റ്രൽ ക്യാമ്പസിന് സമീപമുള്ള പെൺകുട്ടികളുടെ താമസ സൗകര്യങ്ങൾ ഏതൊക്കെയാണ്?",
+      "പെൺകുട്ടികൾക്കായി ശുപാർശ ചെയ്യുന്ന ഹോസ്റ്റലുകൾ ഏതൊക്കെയാണ്?",
+      "പെൺകുട്ടികളുടെ ഹോസ്റ്റൽ",
+      "ഗേൾസ് ഹോസ്റ്റൽ",
+      "തവരേക്കരെ പെൺകുട്ടികളുടെ ഹോസ്റ്റലുകൾ",
+      "മടിവാള ഗേൾസ് പി.ജി.",
+      "women hostel near central campus",
+      "girls PG near christ central campus",
+      "female student accommodation bangalore"
+    ],
+    "pattern": "^(?:(?=.*(പെൺകുട്ടി|സ്ത്രീ|ഗേൾസ്|girls?))(?=.*(ഹോസ്റ്റ(ൽ|ല|ലു)|താമസ|പി\\.\\s*ജി|pg|accom[m]?od[ae]tion))(?!.*(കെങ്ങേരി|kengeri)).+|(?=.*(?:girls?|female|women))(?=.*(?:hostel|accom[m]?od[ae]tion|residence|pg|facilities|amenities))(?=.*(?:central|sg\\s*palya|thavarekere|madiwala|lalji)).+)",
+    "answer": "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റി ബെംഗളൂരു സെന്റ്രൽ ക്യാമ്പസിന് സമീപം പെൺകുട്ടികൾക്കായി ശുപാർശ ചെയ്യുന്ന പ്രധാന ഹോസ്റ്റലുകൾ/താമസ സൗകര്യങ്ങൾ താഴെ പറയുന്നവയാണ്:\n\n• സെന്റ് ഓഗസ്റ്റിൻ ഗേൾസ് ഹോസ്റ്റൽ – കാവേരി ലേഔട്ട്, തവരേക്കരെ മെയിൻ റോഡ്\n• സംയുക്ത (হോളി ക്രോസ്) സ്റ്റഡി ഹൗസ് – മടിവാള, ബെംഗളൂരു\n• സവിന ഭവൻ – എസ്‌.ജി. പാളയ, ബെംഗളൂരു\n• ഉദയ ഭവൻ – ലാൽജി നഗർ, ബെംഗളൂരു\n\nഹോസ്റ്റലുകളുടെ ലഭ്യത, ഫീസ്, സൗകര്യങ്ങൾ, പ്രവേശന നടപടികൾ തുടങ്ങിയ വിവരങ്ങൾ നേരിട്ടറിയാൻ ബന്ധപ്പെട്ട ഹോസ്റ്റലുകളുമായി നേരിട്ട് ബന്ധപ്പെടുന്നത് നല്ലതാണ്.\n\n---\n\n(English) Recommended hostel and accommodation options for female students near CHRIST University Bangalore Central Campus include:\n\n• St. Augustine Girls Hostel – Cauvery Layout, Thavarekere Main Road\n• Samyuktha (Holy Cross) Study House – Madiwala, Bangalore\n• Savina Bhavan – SG Palya, Bangalore\n• Udaya Bhavan – Lalji Nagar, Bangalore\n\nPlease contact the hostels directly to inquire about availability, fee structure, amenities, and admission procedures."
+  },
+  {
+    "id": 9,
+    "question": "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റി ബെംഗളൂരു സെന്റ്രൽ ക്യാമ്പസിന് സമീപം ആൺകുട്ടികൾക്കായി ലഭ്യമായ ഹോസ്റ്റൽ/താമസ സൗകര്യങ്ങൾ എന്തൊക്കെയാണ്?",
+    "question_english": "What accommodation or hostel options are available for male students near CHRIST University Bangalore Central Campus?",
+    "category": "HOSTEL",
+    "related_ids": [
+      4,
+      8,
+      9
+    ],
+    "sample_queries": [
+      "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിക്ക് സമീപം ആൺകുട്ടികൾക്ക് എന്തെല്ലാം ഹോസ്റ്റലുകൾ ഉണ്ട്?",
+      "ക്രൈസ്റ്റ് ബെംഗളൂരു സെന്റ്രൽ ക്യാമ്പസിന് സമീപമുള്ള ആൺകുട്ടികളുടെ താമസ സൗകര്യങ്ങൾ ഏതൊക്കെയാണ്?",
+      "ആൺകുട്ടികൾക്കായി ശുപാർശ ചെയ്യുന്ന ഹോസ്റ്റലുകൾ ഏതൊക്കെയാണ്?",
+      "ആൺകുട്ടികളുടെ ഹോസ്റ്റൽ",
+      "ബോയ്സ് ഹോസ്റ്റൽ",
+      "ക്രൈസ്റ്റ് സ്കൂൾ റോഡ് ആൺകുട്ടികളുടെ ഹോസ്റ്റലുകൾ",
+      "യുവ വികാസ് ആൺകുട്ടികളുടെ ഹോസ്റ്റൽ",
+      "men hostel near central campus",
+      "boys PG near christ central campus",
+      "male student accommodation bangalore"
+    ],
+    "pattern": "^(?:(?=.*(ആൺകുട്ടി|പുരുഷ|ബോയ്സ്|boys?))(?=.*(ഹോസ്റ്റ(ൽ|ല|ലു)|താമസ|പി\\.\\s*ജി|pg|accom[m]?od[ae]tion))(?!.*(കെങ്ങേരി|kengeri)).+|(?=.*(?:boys?|male|men))(?=.*(?:hostel|accom[m]?od[ae]tion|residence|pg|facilities|amenities))(?=.*(?:central|sg\\s*palya|thavarekere|madiwala|christ\\s*school)).+)",
+    "answer": "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റി ബെംഗളൂരു സെന്റ്രൽ ക്യാമ്പസിന് സമീപം ആൺകുട്ടികൾക്കായി ശുപാർശ ചെയ്യുന്ന പ്രധാന ഹോസ്റ്റലുകൾ/താമസ സൗകര്യങ്ങൾ താഴെ പറയുന്നവയാണ്:\n\n• സി.എസ്.ടി വിദ്യാ ഭവൻ അനക്സ്ഡ് – ക്രൈസ്റ്റ് സ്കൂൾ റോഡ്\n• മാർ മാക്കിൽ ഗുരുകുലം – ക്രൈസ്റ്റ് സ്കൂൾ റോഡ്\n• പ്രീഷ്യസ് ബ്ലഡ് ഹോസ്റ്റൽ – ക്രൈസ്റ്റ് സ്കൂൾ റോഡ്\n• യുവ വികാസ് – ക്രൈസ്റ്റ് സ്കൂൾ റോഡ്\n\nഹോസ്റ്റലുകളുടെ ലഭ്യത, ഫീസ്, സൗകര്യങ്ങൾ, പ്രവേശന നടപടികൾ തുടങ്ങിയ വിവരങ്ങൾ നേരിട്ടറിയാൻ ബന്ധപ്പെട്ട ഹോസ്റ്റലുകളുമായി നേരിട്ട് ബന്ധപ്പെടുന്നത് നല്ലതാണ്.\n\n---\n\n(English) Recommended hostel and accommodation options for male students near CHRIST University Bangalore Central Campus include:\n\n• CST Vidya Bhavan Annexed – Christ School Road\n• Mar Makil Gurukulam – Christ School Road\n• Precious Blood Hostel – Christ School Road\n• Yuva Vikas – Christ School Road\n\nPlease contact the hostels directly to inquire about availability, fee structure, amenities, and admission procedures."
+  },
+  {
+    "id": 10,
+    "question": "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിയുടെ അംഗീകാരങ്ങളും റാങ്കിംഗുകളും എന്തൊക്കെയാണ്?",
+    "question_english": "What are the accreditations and rankings of CHRIST University?",
+    "category": "ACADEMICS",
+    "related_ids": [
+      1
+    ],
+    "sample_queries": [
+      "What are the accreditations of CHRIST University?",
+      "Is CHRIST University NAAC accredited?",
+      "What is the NAAC grade of CHRIST University?",
+      "What is the NIRF ranking of CHRIST University?",
+      "Is CHRIST University accredited?",
+      "Tell me about CHRIST University's rankings and accreditations.",
+      "NAAC score of Christ",
+      "NIRF rank",
+      "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിയുടെ NAAC ഗ്രേഡ് എന്താണ്?",
+      "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിയുടെ NIRF റാങ്കിംഗ് എന്താണ്?",
+      "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിക്ക് അംഗീകാരം ഉണ്ടോ?"
+    ],
+    "pattern": "(?:accreditat|naac|nirf|rank|grade|nba).*(?:christ|univ)|(?:christ|univ).*(?:accreditat|rank|naac|nirf|grade|nba)|(?:is\\s+christ).*(?:accredit)|^(?:naac|nirf|accreditat|rank(?:ing)?s?)\\s*[?!.]*$|(അംഗീകാര|റാങ്കിംഗ്|ഗ്രേഡ്).*(ക്രൈസ്റ്റ്|യൂണിവേഴ്സിറ്റി)|(ക്രൈസ്റ്റ്|യൂണിവേഴ്സിറ്റി).*(അംഗീകാര|റാങ്കിംഗ്|ഗ്രേഡ്)",
+    "answer": "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിക്ക് NAAC-ൽ നിന്ന് A+ ഗ്രേഡും (4-ൽ 3.42 CGPA) ലഭിച്ചിട്ടുണ്ട്, ഇത് 2027 ഒക്ടോബർ 25 വരെ സാധുവാണ്. NIRF 2024 റാങ്കിംഗിൽ ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റി ബെംഗളൂരുവിന് ഒട്ടാകെയുള്ള (Overall) വിഭാഗത്തിൽ 90-ാം സ്ഥാനവും എഞ്ചിനീയറിംഗ് വിഭാഗത്തിൽ 93-ാം സ്ഥാനവും ലഭിച്ചിട്ടുണ്ട്. കൂടാതെ സർവ്വകലാശാലയിലെ എം.ബി.എ പോലുള്ള ചില പ്രോഗ്രാമുകൾക്ക് നാഷണൽ ബോർഡ് ഓഫ് അക്രഡിറ്റേഷൻ (NBA) അംഗീകാരവുമുണ്ട്.\n\n---\n\n(English) CHRIST University is accredited by NAAC with an A+ grade and a CGPA of 3.42 on a 4-point scale, valid up to October 25, 2027. In the NIRF 2024 rankings, CHRIST University Bengaluru was ranked 90 in the Overall category and 93 in the Engineering category. The university also holds accreditation for programmes such as MBA through the National Board of Accreditation (NBA)."
+  },
+  {
+    "id": 11,
+    "question": "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റി വിദ്യാർത്ഥികൾക്കായി എക്സ്ചേഞ്ച് പ്രോഗ്രാമുകളോ വിദേശ പഠന അവസരങ്ങളോ നൽകുന്നുണ്ടോ?",
+    "question_english": "Does CHRIST University offer a student exchange or study abroad program?",
+    "category": "EXCHANGE",
+    "related_ids": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "sample_queries": [
+      "Does CHRIST University have a student exchange program?",
+      "Can students study abroad through CHRIST University?",
+      "Is there a study abroad program at CHRIST?",
+      "Does CHRIST offer international student exchange?",
+      "Can I study in partner universities through CHRIST?",
+      "Tell me about the student exchange program.",
+      "Can foreign students study at CHRIST University?",
+      "Does CHRIST accept exchange students from other universities?",
+      "What is the incoming and outgoing exchange program?",
+      "ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിയിൽ എക്സ്ചേഞ്ച് പ്രോഗ്രാം ഉണ്ടോ?",
+      "വിദേശത്ത് പഠിക്കാൻ ക്രൈസ്റ്റ് വഴി സാധിക്കുമോ?",
+      "സ്റ്റുഡന്റ് എക്സ്ചേഞ്ച് പ്രോഗ്രാം എന്താണ്?"
+    ],
+    "pattern": "^(?!(?:.*(?:apply|eligib|process|require|document|ielts|toefl|incoming|outgoing|how|step|where|which|list|partner|countries))).*(?:(?:student\\s*exchange|study\\s*abroad|international\\s*exchange|exchange\\s*program|partner\\s*universit).*(?:christ|univ)|(?:christ|univ).*(?:student\\s*exchange|study\\s*abroad|exchange\\s*program)|(?:does|is\\s+there|tell\\s+me|can).*(?:student\\s*exchange|exchange\\s*program|study\\s*abroad)|(?:foreign|outside\\s*india|international).*(?:student).*(?:christ|study)|(?:incoming\\s*and\\s*outgoing)|(?:christ).*(?:accept|incoming).*(?:exchange)|^(?:student\\s*exchange|exchange\\s*program|study\\s*abroad)(?:\\s*program(?:me)?)?\\s*[?!.]*$)|(എക്സ്ചേഞ്ച്|വിദേശ\\s*പഠന|സ്റ്റുഡന്റ്\\s*എക്സ്ചേഞ്ച്).*(ക്രൈസ്റ്റ്|യൂണിവേഴ്സിറ്റി|പ്രോഗ്രാം|ഉണ്ടോ)|(ക്രൈസ്റ്റ്|യൂണിവേഴ്സിറ്റി).*(എക്സ്ചേഞ്ച്|വിദേശ\\s*പഠന)",
+    "answer": "അതെ, ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റി ലോകമെമ്പാടുമുള്ള പാർട്ണർ സർവ്വകലാശാലകളുമായി സഹകരിച്ച് സ്റ്റുഡന്റ് എക്സ്ചേഞ്ച്, സ്റ്റഡി അബ്രോഡ് പ്രോഗ്രാമുകൾ വാഗ്ദാനം ചെയ്യുന്നു. ക്രൈസ്റ്റിലെ വിദ്യാർത്ഥികൾക്ക് അവരുടെ ബിരുദ അല്ലെങ്കിൽ ബിരുദാനന്തര കോഴ്‌സിന്റെ രണ്ടാം വർഷത്തിൽ ഒരു സെമസ്റ്റർ വിദേശത്ത് പഠിക്കാനാകും. വിദ്യാർത്ഥികൾ ട്യൂഷൻ ഫീസ് ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിയിൽ തന്നെയാണ് അടയ്ക്കേണ്ടത്. അതുപോലെ, പാർട്ണർ യൂണിവേഴ്സിറ്റികളിൽ നിന്നുള്ള വിദേശ വിദ്യാർത്ഥികൾക്കും ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിയിൽ വന്ന് പഠിക്കാനുള്ള അവസരമുണ്ട്. ഈ പ്രോഗ്രാം വിദ്യാർത്ഥികൾക്ക് അന്താരാഷ്ട്ര അനുഭവം നേടാനും പുതിയ സംസ്കാരങ്ങൾ മനസ്സിലാക്കാനും മികച്ച തൊഴിലവസരങ്ങൾ കണ്ടെത്താനും സഹായിക്കുന്നു.\n\n---\n\n(English) Yes, CHRIST University offers student exchange and study abroad programs through partner universities worldwide. Students from CHRIST can study abroad for a semester during the second year of their Bachelor's or Master's program while continuing to pay tuition fees to CHRIST University. The university also accepts incoming exchange students who are nominated by partner universities. Incoming students pay tuition fees to their home university and study at CHRIST as part of the exchange program. The program helps students gain global exposure, experience new cultures, learn different education styles, and improve career opportunities."
+  },
+  {
+    "id": 12,
+    "question": "Which universities or countries can students go to as part of the CHRIST University exchange program?",
+    "category": "EXCHANGE",
+    "related_ids": [
+      11,
+      13,
+      14
+    ],
+    "sample_queries": [
+      "Where can students go for exchange programs?",
+      "Which universities are available for student exchange?",
+      "What are the partner universities for exchange programs?",
+      "Which countries are included in the exchange program?",
+      "Where can I study abroad through CHRIST University?",
+      "Which universities partner with CHRIST for student exchange?",
+      "What programs are available under student exchange?"
+    ],
+    "pattern": "^(?!(?:.*(?:engineer|law|bca|btech|commerce|psychology|computer|architec))).*(?:(?:where|which).*(?:exchange|study\\s*abroad|partner\\s*universit|countries|programs?)|(?:partner\\s*universit|exchange\\s*program|study\\s*abroad).*(?:available|where|which|list))",
+    "answer": "CHRIST University offers student exchange opportunities through more than 18 partner universities across countries such as the USA, Germany, France, Netherlands, Belgium, Australia, Japan, South Korea, Malaysia, Canada, Thailand, Switzerland, Vietnam, and the UK.\n\nStudents can study abroad for one or two semesters while earning credits toward their degree.\n\nThe exchange program helps students gain international exposure, experience different cultures, and improve academic and career opportunities."
+  },
+  {
+    "id": 13,
+    "question": "What are the department-wise or course-specific partner universities and exchange opportunities at CHRIST University?",
+    "category": "EXCHANGE",
+    "related_ids": [
+      11,
+      12,
+      14
+    ],
+    "sample_queries": [
+      "Which universities are available for engineering exchange?",
+      "Are there exchange opportunities for law students?",
+      "What are the department-wise partner universities?",
+      "Is there an exchange program for BCA or Computer Science?",
+      "Commerce student exchange opportunities",
+      "Exchange opportunities for psychology students",
+      "Can architecture students study abroad?"
+    ],
+    "pattern": "(?P<dept>engineer|law|bca|btech|commerce|psychology|computer|architec).*(?:exchange|partner|abroad|opportunit)|(?:exchange\\s*opportunit).*(?:law|engineer|bca|computer|psychology)|(?:department|course).*(?:partner\\s*universit|exchange)",
+    "conditional_answers": {
+      "engineer|btech": "Engineering students (BTech) can study at universities such as Saint Martin's University (USA), JUNIA (France), and ICP Catholic University of Paris (France) through the CHRIST exchange program.",
+      "law": "Law students (BA LLB/BBA LLB) can study at partner universities such as ICES France and Liverpool Hope University (UK) through the CHRIST exchange program.",
+      "computer|bca": "Computer Science and BCA students have partner universities in Germany, Belgium, the UK, and South Korea through the CHRIST exchange program.",
+      "commerce": "Commerce and BCom students can study at universities in France, the USA, Netherlands, Thailand, and South Korea through the CHRIST exchange program.",
+      "psychology": "Psychology students have exchange opportunities in South Korea, Australia, Japan, and the UK through the CHRIST exchange program.",
+      "architec": "Architecture students can participate in exchange programs with JUNIA, France through the CHRIST exchange program."
+    },
+    "answer": "Different schools and programs at CHRIST University have specific partner universities for student exchange. For example:\n• Engineering students (BTech) can study at universities such as Saint Martin's University (USA), JUNIA (France), and ICP Catholic University of Paris (France).\n• Computer Science and BCA students have partner universities in Germany, Belgium, the UK, and South Korea.\n• Commerce and BCom students can study at universities in France, the USA, Netherlands, Thailand, and South Korea.\n• Psychology students have exchange opportunities in South Korea, Australia, Japan, and the UK.\n• Law students (BA LLB/BBA LLB) can study at partner universities such as ICES France and Liverpool Hope University (UK).\n• Architecture students can participate in exchange programs with JUNIA, France.\n\nStudents can participate in these specialized exchange programs to gain course-relevant global academic exposure."
+  },
+  {
+    "id": 14,
+    "question": "How do CHRIST University students apply for an outgoing student exchange program and what are the expected expenses?",
+    "category": "EXCHANGE",
+    "related_ids": [
+      11,
+      12,
+      13,
+      15
+    ],
+    "sample_queries": [
+      "How can I apply for a student exchange program?",
+      "What is the process for studying abroad through CHRIST?",
+      "How do CHRIST students go abroad for exchange?",
+      "What is the semester exchange process?",
+      "What expenses should I consider for exchange programs?",
+      "What is the cost of going on exchange?",
+      "How to apply for outgoing exchange?"
+    ],
+    "pattern": "(?:apply|process|semester\\s*exchange|expense|cost|budget).*(?:outgoing|exchange|abroad)|outgoing.*(?:exchange|program|student|apply|process)|(?:how).*(?:go|apply|study).*(?:abroad|exchange|outgoing)|^outgoing\\s*[?!.]*$",
+    "answer": "CHRIST University students can apply for an outgoing student exchange program through the following process: planning overseas study, submitting an application to the university, getting departmental approval from their coordinator, preparing a study plan, applying to the host university, and completing travel formalities such as visa, accommodation, and insurance.\n\nThe exchange usually takes place during the 4th semester (January to May) for many programs.\n\nStudents on exchange continue paying tuition fees to CHRIST University rather than the host university. However, students should budget for travel, accommodation, health insurance, flights, daily living expenses, and other personal costs."
+  },
+  {
+    "id": 15,
+    "question": "What are the academic eligibility requirements for CHRIST University students to go on an outgoing student exchange program?",
+    "category": "EXCHANGE",
+    "related_ids": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "sample_queries": [
+      "What are the eligibility requirements for exchange programs?",
+      "Am I eligible for the student exchange program?",
+      "What are the requirements for outgoing exchange students?",
+      "What is the minimum marks needed for exchange?",
+      "Who can apply for outgoing exchange?",
+      "Eligibility for study abroad at CHRIST"
+    ],
+    "pattern": "(?:eligib|requirement|minimum|marks|criteria|who\\s*can).*(?:outgoing|exchange|abroad)|outgoing.*(?:eligib|requirement|criteria)|(?:am\\s+i|who\\s+is).*(?:eligib).*(?:exchange|abroad)",
+    "answer": "To be eligible for an outgoing student exchange program at CHRIST University, students must meet the following requirements:\n\n• Be currently enrolled at CHRIST University\n• Have completed at least one year of study\n• Maintain a minimum overall average of 60%\n• Obtain approval from their department coordinator\n\nStudents meeting these criteria can apply for exchange opportunities at partner universities worldwide."
+  },
+  {
+    "id": 16,
+    "question": "How do international students apply for an incoming exchange program at CHRIST University and when do the semesters run?",
+    "category": "EXCHANGE",
+    "related_ids": [
+      11,
+      14,
+      15,
+      17
+    ],
+    "sample_queries": [
+      "How can international students come to CHRIST University through exchange?",
+      "What is the process for incoming exchange students at CHRIST?",
+      "When does the exchange semester happen at CHRIST University?",
+      "How do I apply as an exchange student to CHRIST?",
+      "Can students from outside India study at CHRIST University?",
+      "What is the timeline for incoming exchange programs?"
+    ],
+    "pattern": "(?:international|foreign|outside\\s*india).*(?:student|exchange).*(?:christ|india|apply)|(?:christ|univ).*(?:incoming|international).*(?:exchange|student)|incoming.*(?:exchange|student|program|apply|christ)|^incoming\\s*(?:students?)?\\s*[?!.]*$|(?:exchange\\s*semester|when\\s+does\\s+the\\s+exchange).*(?:christ|exchange|student)|(?:can\\s+students?\\s+from).*(?:outside|india).*(?:christ|study)",
+    "answer": "Students from partner universities outside India can study at CHRIST (Deemed to be University) through the Incoming Student Exchange Program. The program is available for undergraduate and postgraduate students who wish to spend part of their degree at CHRIST while earning credits that transfer back to their home university.\n\nExchange semesters at CHRIST generally follow:\n• Odd Semester (1st, 3rd, 5th): June – October\n• Even Semester (2nd, 4th, 6th): November – April\n(including examination dates)"
+  },
+  {
+    "id": 17,
+    "question": "What are the eligibility criteria, English language requirements, and required documents for international exchange students at CHRIST University?",
+    "category": "EXCHANGE",
+    "related_ids": [
+      11,
+      14,
+      15,
+      16
+    ],
+    "sample_queries": [
+      "Who is eligible for the CHRIST incoming exchange program?",
+      "What are the academic requirements for studying at CHRIST as an exchange student?",
+      "What documents are needed for incoming exchange students?",
+      "What are the English language requirements for exchange students?",
+      "Do I need IELTS or TOEFL for incoming student exchange?",
+      "Eligibility criteria for incoming international students"
+    ],
+    "pattern": "(?:eligib|require|document|ielts|toefl).*(?:incoming|international|exchange|christ)|(?:academic\\s*require|english\\s*language).*(?:christ|exchange|student)",
+    "answer": "To study at CHRIST University as an incoming exchange student, the following requirements must be met:\n\n• **Academic Eligibility**: Students must have completed at least one year of undergraduate or postgraduate study, be officially nominated by their home university, and maintain good academic standing.\n• **English Language Proficiency**: If required, students must demonstrate proficiency through:\n  - IELTS (Academic): Minimum overall score of 6.0 with no band below 5.5\n  - TOEFL (iBT): Minimum overall score of 70 with section-wise minimums\n• **Required Documents**:\n  - Official academic transcript\n  - Proof of English language proficiency\n  - Valid passport copy"
+  }
+]

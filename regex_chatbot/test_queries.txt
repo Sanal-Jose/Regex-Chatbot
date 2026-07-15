@@ -1,0 +1,168 @@
+# ==============================================================================
+# 🤖 CHRIST University Regex Chatbot — Test Queries & Edge Cases
+# ==============================================================================
+# This file contains a curated collection of test queries covering all 4 team 
+# data sources, multilingual queries (Malayalam, Tamil, Kannada, Hindi), 
+# and structural edge cases (1-2 word inputs, typos, out-of-scope queries).
+# Use these to thoroughly test and verify the ChatEngine's routing and responses.
+# ==============================================================================
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 1. Sanal Q&A (Academics, Hostel, Accreditation, Exchange — English & Malayalam)
+# ──────────────────────────────────────────────────────────────────────────────
+# Template matches:
+What is the fee for BBA?
+BCA fees and duration
+How much does MCA cost?
+Tell me the fees and duration
+
+# Split/Conditional matches:
+Is hostel available in CHRIST University?
+What is the hostel admission process?
+What are the hostel fees?
+boys hostel fees
+girls hostel fee
+girls hostel near central campus
+boys hostel near central campus
+
+# Accreditation & Exchange:
+Is CHRIST University NAAC accredited?
+Tell me about the student exchange program.
+engineering exchange program
+law exchange
+How can I apply for outgoing exchange?
+Am I eligible for the student exchange program?
+
+# Malayalam Bilingual Queries:
+ക്രൈസ്റ്റ് ഓൺലൈൻ പ്രോഗ്രാമുകൾ എന്തൊക്കെയാണ്?
+ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിയുടെ NAAC ഗ്രേഡ് എന്താണ്?
+ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിയിൽ എക്സ്ചേഞ്ച് പ്രോഗ്രാം ഉണ്ടോ?
+ക്രൈസ്റ്റ് യൂണിവേഴ്സിറ്റിക്ക് സമീപം എന്തെല്ലാം ഹോസ്റ്റൽ സൗകര്യങ്ങൾ ലഭ്യമാണ്?
+സെന്റ്രൽ ക്യാമ്പസിന് സമീപമുള്ള പെൺകുട്ടികളുടെ ഹോസ്റ്റലുകൾ ഏതൊക്കെയാണ്?
+സെന്റ്രൽ ക്യാമ്പസിന് സമീപമുള്ള ആൺകുട്ടികളുടെ ഹോസ്റ്റലുകൾ ഏതൊക്കെയാണ്?
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 2. Defitha Q&A (Examination, Placements, IQAC — English & Tamil)
+# ──────────────────────────────────────────────────────────────────────────────
+When will the exam timetable be released?
+Where can I find previous question papers?
+Who should I contact for examination-related issues?
+How to register for placements?
+What rounds are included in campus recruitment?
+What is IQAC?
+
+# Tamil Bilingual Queries:
+மதிப்பெண் பட்டியல் எப்போது வெளியிடப்படும்?
+கேம்பஸ் நேர்முகத் தேர்வில் கலந்து கொள்ள குறைந்தபட்ச தகுதி என்ன?
+தரமான கல்வியை உறுதி செய்வதவதில் IQAC எப்படி செயல்படுகிறது?
+மாணவர்களின் ஆராய்ச்சி நடவடிக்கைகளுக்கு எந்த மையங்கள் உதவுகின்றன?
+பல்கலைக்கழக நிகழ்ச்சிகள் மற்றும் பயிற்சிகள் பற்றிய தகவல்களை எங்கே பெறலாம்?
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 3. Evengiline Q&A (Admission, Library, CICF — English & Kannada)
+# ──────────────────────────────────────────────────────────────────────────────
+What programmes does Christ University offer?
+Is there an entrance test for admission?
+How do I access library resources remotely?
+What services does CICF offer?
+Does Christ University collaborate with government bodies on projects?
+
+# Kannada Bilingual Queries:
+ಕ್ರಿಸ್ಟ್ ಇನ್ಕ್ಯುಬೇಷನ್ ಮತ್ತು ಕನ್ಸಲ್ಟೆನ್ಸಿ ಫೌಂಡೇಶನ್ ಏನು ಮಾಡುತ್ತದೆ?
+CICF ಕ್ರೈಸ್ಟ್ ವಿಶ್ವವಿದ್ಯಾಲಯದಲ್ಲಿ ಸ್ಟಾರ್ಟಪ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆಯೇ?
+ಕ್ರೈಸ್ಟ್ ಯೂನಿವರ್ಸಿಟಿ ಗ್ರಂಥಾಲಯದಲ್ಲಿ ಯಾವ ಸಂಪನ್ಮೂಲಗಳು ಲಭ್ಯವಿದೆ?
+ಕ್ರೈಸ್ಟ್ ಯೂನಿವರ್ಸಿಟಿ ಗ್ರಂಥಾಲಯದಲ್ಲಿ ಯಾವ ಪುಸ್ತಕಗಳು ಇವೆ?
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 4. Nasreen Q&A (SDG, PhD, Payment, Alumni — English & Hindi)
+# ──────────────────────────────────────────────────────────────────────────────
+What activities were conducted by the SDG Cell?
+What is the process for PhD admission?
+Is refund available after payment?
+How does alumni network help students?
+
+# Hindi Bilingual Queries:
+SDG सेल क्या करता है?
+PhD में admission कैसे लें?
+Online payment कैसे करें?
+क्या payment का refund मिलता है?
+Alumni network क्या benefits देता है?
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 5. One-Word Edge Cases (Tests keyword-matching & short patterns)
+# ──────────────────────────────────────────────────────────────────────────────
+hostel
+NAAC
+CICF
+placement
+exams
+fees
+exchange
+refund
+BCA
+SDG
+IQAC
+library
+admissions
+alumni
+
+# Non-English One-Word Edge Cases:
+ഹോസ്റ്റൽ
+എക്സ്ചേഞ്ച്
+தேர்வு
+ரிசல்ட்
+தகுதி
+ಗ್ರಂಥಾಲಯ
+ಪುಸ್ತಕಗಳು
+सेल
+पेमेंट
+रिफंड
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 6. Two-Word Edge Cases (Tests condition evaluation and brief matching)
+# ──────────────────────────────────────────────────────────────────────────────
+boys hostel
+girls hostel
+exam schedule
+placement process
+library online
+phd apply
+online fee
+refund policy
+naac grade
+student exchange
+foreign student
+
+# Non-English Two-Word Edge Cases:
+ആൺകുട്ടികളുടെ ഹോസ്റ്റൽ
+പെൺകുട്ടികളുടെ ഹോസ്റ്റൽ
+தேர்வு முடிவுகள்
+கேம்பஸ் நேர்முகத்
+ಗ್ರಂಥಾಲಯ ಲಾಗಿನ್
+ಡಿಜಿಟಲ್ ಸಂಪನ್ಮೂಲ
+ऑनलाइन पेमेंट
+पेमेंट रिफंड
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 7. Typo Tolerance, Partial Queries, and Conversational Chitchat
+# ──────────────────────────────────────────────────────────────────────────────
+hosel
+placements
+exam time table
+libary access
+ph.d admission
+online pay
+hi
+hello
+thanks
+goodbye
+help
+
+# ──────────────────────────────────────────────────────────────────────────────
+# 8. Out-of-Scope / Non-Matching Queries (Tests "Did You Mean?" & No Match Fallbacks)
+# ──────────────────────────────────────────────────────────────────────────────
+What is the weather in Bangalore?
+Who is the prime minister?
+Where is the nearest restaurant?
+Can you write code for me?
+random question

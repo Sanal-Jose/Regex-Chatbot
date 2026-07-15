@@ -1,0 +1,252 @@
+[
+  {
+    "id": "N1",
+    "question": "What activities were conducted by the SDG Cell?",
+    "category": "STUDENT_LIFE",
+    "related_ids": [
+      "N2"
+    ],
+    "sample_queries": [
+      "What SDG activities were conducted?",
+      "What programs are done by SDG Cell?",
+      "Tell me SDG events",
+      "What does the SDG Cell do?"
+    ],
+    "pattern": "(?:sdg|sustainable\\s*development).*(?:activit|events?|programs?|conducted|done|do|cell)|(?:what).*(?:sdg).*(?:conducted|done|do|programs?)|(?:what\\s*programs?).*(?:sdg)",
+    "answer": "The SDG Cell conducts activities such as bootcamps, seminars, youth events, plantation drives, and sustainability programs involving students and communities."
+  },
+  {
+    "id": "N2",
+    "question": "How many students participated in SDG initiatives?",
+    "category": "STUDENT_LIFE",
+    "related_ids": [
+      "N1"
+    ],
+    "sample_queries": [
+      "Number of students in SDG activities",
+      "How many students were engaged in SDG?",
+      "SDG student participation count"
+    ],
+    "pattern": "(?:how\\s*many|number\\s*of).*(?:students?).*(?:sdg|participat|engaged)|(?:sdg).*(?:students?|participat).*(?:how\\s*many|number|count)",
+    "answer": "More than 2,500 students participated in SDG initiatives through various programs."
+  },
+  {
+    "id": "N3",
+    "question": "What is the process for PhD admission?",
+    "category": "ADMISSION",
+    "related_ids": [
+      "N4",
+      "N5"
+    ],
+    "sample_queries": [
+      "How to apply for PhD?",
+      "Explain PhD admission process",
+      "Steps for PhD admission",
+      "PhD admission requirements"
+    ],
+    "pattern": "(?:phd|doctoral).*(?:admission|process|apply|enroll|steps)|(?:how).*(?:phd|doctoral|apply).*(?:admission|apply|phd)?|^phd\\s*(?:admission)?\\s*[?!.]*$",
+    "answer": "The PhD admission process includes application, supervisor allocation, coursework, and approval by the Research Advisory Committee."
+  },
+  {
+    "id": "N4",
+    "question": "What subjects are included in PhD coursework?",
+    "category": "ACADEMICS",
+    "related_ids": [
+      "N3",
+      "N5"
+    ],
+    "sample_queries": [
+      "What courses are in PhD?",
+      "PhD coursework subjects",
+      "What do PhD students study?",
+      "PhD curriculum"
+    ],
+    "pattern": "(?:phd|doctoral).*(?:coursework|subjects?|courses?|curriculum|study)|(?:what).*(?:subjects?|courses?).*(?:phd|doctoral)|(?:what\\s*courses?).*(?:in\\s+phd|phd)",
+    "answer": "PhD coursework includes Research Foundations, Research Methodology, Research Publication, and Research Writing."
+  },
+  {
+    "id": "N5",
+    "question": "How is a PhD supervisor assigned?",
+    "category": "ACADEMICS",
+    "related_ids": [
+      "N3",
+      "N4"
+    ],
+    "sample_queries": [
+      "PhD supervisor allocation",
+      "How do I get a PhD supervisor?",
+      "PhD guide assignment",
+      "Who assigns the PhD supervisor?"
+    ],
+    "pattern": "(?:phd|doctoral).*(?:supervisor|guide).*(?:assign|allot|allocat|get)|(?:how).*(?:supervisor|guide).*(?:phd|doctoral|get)|(?:supervisor|guide).*(?:assign|allot).*(?:phd)|(?:who).*(?:assign).*(?:supervisor|phd)",
+    "answer": "Supervisors are assigned based on student preference, department recommendation, and approval by the doctoral committee."
+  },
+  {
+    "id": "N6",
+    "question": "How can I make payment online?",
+    "category": "ACADEMICS",
+    "related_ids": [
+      "N7",
+      "N8"
+    ],
+    "sample_queries": [
+      "How to pay online?",
+      "Payment method at CHRIST",
+      "Online fee payment process",
+      "How to pay tuition fees?"
+    ],
+    "pattern": "(?:payment|pay|fee).*(?:online|portal|method|how|process)|(?:how).*(?:pay|payment|fee).*(?:online)?|^(?:online\\s*)?payment\\s*[?!.]*$",
+    "answer": "You can make payment through net banking, credit card, or debit card using the online payment portal."
+  },
+  {
+    "id": "N7",
+    "question": "What should I do if my payment fails?",
+    "category": "ACADEMICS",
+    "related_ids": [
+      "N6",
+      "N8"
+    ],
+    "sample_queries": [
+      "Payment failed what to do",
+      "Error in payment",
+      "Payment not going through",
+      "Transaction failed"
+    ],
+    "pattern": "(?:payment|transaction).*(?:fail|failed|error|not\\s*going|issue|problem)|(?:what).*(?:do).*(?:payment).*(?:fail)|(?:error).*(?:payment|transaction)",
+    "answer": "If your payment fails, check the status, verify your bank account, and retry if the amount was not deducted."
+  },
+  {
+    "id": "N8",
+    "question": "Is refund available after payment?",
+    "category": "ACADEMICS",
+    "related_ids": [
+      "N6",
+      "N7"
+    ],
+    "sample_queries": [
+      "Refund policy",
+      "Can I get money back?",
+      "Is there a refund option?",
+      "Payment refund process"
+    ],
+    "pattern": "(?:refund|money\\s*back).*(?:available|policy|option|process|after)|(?:after).*(?:payment).*(?:refund)|(?:can).*(?:refund|money\\s*back)|^refund\\s*[?!.]*$",
+    "answer": "Refunds are generally not available after payment. For duplicate payments, contact the accounts department."
+  },
+  {
+    "id": "N9",
+    "question": "What activities are conducted by the alumni office?",
+    "category": "STUDENT_LIFE",
+    "related_ids": [
+      "N10"
+    ],
+    "sample_queries": [
+      "Alumni events",
+      "What does alumni office do?",
+      "Alumni office activities",
+      "What events does the alumni office organize?"
+    ],
+    "pattern": "(?:alumni).*(?:activit|events?|engagement|office|do|organiz)|(?:what).*(?:alumni).*(?:do|activit|events?)",
+    "answer": "The alumni office conducts events like reunions, alumni meets, medical camps, and networking programs."
+  },
+  {
+    "id": "N10",
+    "question": "How does alumni network help students?",
+    "category": "STUDENT_LIFE",
+    "related_ids": [
+      "N9"
+    ],
+    "sample_queries": [
+      "Alumni benefits",
+      "How alumni supports students",
+      "What does the alumni network offer?",
+      "Alumni mentorship"
+    ],
+    "pattern": "(?:alumni).*(?:help|benefits?|support|offer|mentor|network).*(?:students?)?|(?:how).*(?:alumni).*(?:help|support)",
+    "answer": "The alumni network helps students through mentorship, internships, career guidance, and scholarships."
+  },
+  {
+    "id": "N11",
+    "question": "SDG सेल क्या करता है?",
+    "question_english": "What does the SDG Cell do?",
+    "category": "STUDENT_LIFE",
+    "related_ids": [
+      "N1",
+      "N2"
+    ],
+    "sample_queries": [
+      "SDG का काम क्या है?",
+      "SDG activities क्या हैं?",
+      "What does SDG Cell do in Hindi?"
+    ],
+    "pattern": "(?:sdg).*(क्या\\s*करता|kya\\s*karta|काम|kaam|क्या\\s*हैं|do)|(?:sdg).*(role|activities).*(हैं|hai)|(?:what).*(?:sdg).*(?:do).*(?:hindi)?",
+    "answer": "SDG सेल sustainability से जुड़े events, awareness programs और community activities organize करता है।\n\n(English) The SDG Cell organizes events, awareness programs, and community activities related to sustainability."
+  },
+  {
+    "id": "N12",
+    "question": "PhD में admission कैसे लें?",
+    "question_english": "How to take admission in PhD?",
+    "category": "ADMISSION",
+    "related_ids": [
+      "N3",
+      "N4"
+    ],
+    "sample_queries": [
+      "PhD apply कैसे करें?",
+      "PhD process क्या है?",
+      "How to apply for PhD in Hindi?"
+    ],
+    "pattern": "(?:phd).*(admission|कैसे|kaise|apply|प्रवेश|process)|(?:कैसे).*(?:phd).*(?:admission|लें|apply)|(?:how).*(?:apply).*(?:phd).*(?:hindi)?|(?:phd\\s*process)",
+    "answer": "PhD admission के लिए application, eligibility check, supervisor allotment और coursework complete करना होता है।\n\n(English) For PhD admission, you need to complete application, eligibility check, supervisor allotment, and coursework."
+  },
+  {
+    "id": "N13",
+    "question": "Online payment कैसे करें?",
+    "question_english": "How to make online payment?",
+    "category": "ACADEMICS",
+    "related_ids": [
+      "N6",
+      "N7"
+    ],
+    "sample_queries": [
+      "Payment कैसे करें",
+      "Online fee कैसे pay करें",
+      "How to pay fees in Hindi?"
+    ],
+    "pattern": "(?:online).*(?:payment|fee).*(?:कैसे|kaise|how)|(?:payment|fee).*(?:कैसे|kaise|how).*(?:करें|pay)?|(?:how).*(?:pay).*(?:fee).*(?:hindi)?",
+    "answer": "आप net banking, debit card या credit card से online payment कर सकते हैं।\n\n(English) You can make online payment using net banking, debit card, or credit card."
+  },
+  {
+    "id": "N14",
+    "question": "क्या payment का refund मिलता है?",
+    "question_english": "Is payment refund available?",
+    "category": "ACADEMICS",
+    "related_ids": [
+      "N6",
+      "N8"
+    ],
+    "sample_queries": [
+      "Refund मिलता है क्या?",
+      "Payment वापस मिलेगा?",
+      "Is refund available in Hindi?"
+    ],
+    "pattern": "(?:refund).*(?:मिलता|available|मिलेगा)|(?:payment).*(?:refund|वापस).*(?:है|hai|मिलता|मिलेगा)|(?:payment\\s*वापस)",
+    "answer": "सामान्यतः payment के बाद refund नहीं मिलता, लेकिन duplicate payment होने पर support से संपर्क कर सकते हैं।\n\n(English) Generally, refund is not available after payment, but for duplicate payments, contact support."
+  },
+  {
+    "id": "N15",
+    "question": "Alumni network क्या benefits देता है?",
+    "question_english": "What benefits does the alumni network provide?",
+    "category": "STUDENT_LIFE",
+    "related_ids": [
+      "N9",
+      "N10"
+    ],
+    "sample_queries": [
+      "Alumni help कैसे करता है",
+      "Alumni support क्या है",
+      "Alumni benefits in Hindi"
+    ],
+    "pattern": "(?:alumni).*(?:benefits?|help|support|क्या\\s*देता|kya\\s*deta)|(?:alumni).*(कैसे|kaise).*(?:help|support|करता)",
+    "answer": "Alumni network students को mentorship, internships, career support और networking opportunities देता है।\n\n(English) The alumni network provides students with mentorship, internships, career support, and networking opportunities."
+  }
+]

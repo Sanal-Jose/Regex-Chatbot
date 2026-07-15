@@ -1,0 +1,28 @@
+# System files
+.DS_Store
+._*
+.ipynb_checkpoints/
+
+# Python compilation artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE configuration directories
+.vscode/
+.idea/
+
+# Large archives and compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Submission-specific duplicates
+Sanal Jose 2567219/
+
+# OS-specific and word processor documents at root (can be moved to a docs/ folder if needed)
+*.docx
+*.pages
+
+# Old/Outdated data copies
+regex_chatbot/Original data fiiles/

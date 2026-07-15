@@ -1,0 +1,264 @@
+[
+  {
+    "id": "E1",
+    "question": "ಕ್ರೈಸ್ಟ್ ವಿಶ್ವವಿದ್ಯಾಲಯಕ್ಕೆ ನಾನು ಹೇಗೆ ಅರ್ಜಿ ಸಲ್ಲಿಸಬೇಕು?",
+    "question_english": "How do I apply to Christ University?",
+    "category": "ADMISSION",
+    "related_ids": [
+      "E2",
+      "E3",
+      "E4"
+    ],
+    "sample_queries": [
+      "What is the application/admission process for Christ University?",
+      "How can I get admission to Christ University?",
+      "What are the steps to enroll at Christ University?",
+      "ಕ್ರೈಸ್ಟ್ ವಿಶ್ವವಿದ್ಯಾಲಯದ ಪ್ರವೇಶ ಪ್ರಕ್ರಿಯೆ ಏನು?",
+      "ಕ್ರೈಸ್ಟ್ ವಿಶ್ವವಿದ್ಯಾಲಯದಲ್ಲಿ ಪ್ರವೇಶ ಪಡೆಯುವುದು ಹೇಗೆ?",
+      "ಕ್ರೈಸ್ಟ್ ವಿಶ್ವವಿದ್ಯಾಲಯಕ್ಕೆ ನೋಂದಾಯಿಸಿಕೊಳ್ಳುವ ಹಂತಗಳು ಯಾವುವು?"
+    ],
+    "pattern": "(?:apply|admission|enroll|application).*(?:christ\\s*univ)|(?:christ\\s*univ).*(?:application|admission|apply|enroll|steps)|(ಅರ್ಜಿ|ಪ್ರವೇಶ|ನೋಂದಾಯಿಸು|ಹಂತಗಳು).*(ಕ್ರೈಸ್ಟ್)|(ಕ್ರೈಸ್ಟ್).*(ಅರ್ಜಿ|ಪ್ರವೇಶ|ನೋಂದಾಯಿಸು)|(?:how).*(?:get\\s*admission).*(?:christ)|(?:steps).*(?:enroll).*(?:christ)",
+    "answer": "ನಿಮ್ಮ ಇಮೇಲ್ ಐಡಿ ಬಳಸಿ ಪ್ರವೇಶ ಪೋರ್ಟಲ್‌ನಲ್ಲಿ ನೋಂದಾಯಿಸಿ, ಆನ್‌ಲೈನ್ ಅರ್ಜಿ ನಮೂನೆಯನ್ನು ಭರ್ತಿ ಮಾಡಿ ಮತ್ತು ಅರ್ಜಿ ಶುಲ್ಕವನ್ನು ಪಾವತಿಸಿ. ಅದರ ನಂತರ, ನೀವು ಪ್ರವೇಶ ಪರೀಕ್ಷೆ, ಮೌಲ್ಯಮಾಪನ ಮತ್ತು ಸಂದರ್ಶನವನ್ನು (ಅನ್ವಯಿಸಿದರೆ) ತೆಗೆದುಕೊಳ್ಳಬೇಕಾಗುತ್ತದೆ. ಫಲಿತಾಂಶಗಳಿಗಾಗಿ ನಿಮ್ಮ ಲಾಗಿನ್ ಪುಟವನ್ನು ಪರಿಶೀಲಿಸಿ - ಆಯ್ಕೆಯಾದರೆ, ಆಫರ್ ಲೆಟರ್ ಅನ್ನು ಲಗತ್ತಿಸಲಾಗುತ್ತದೆ. ಅಂತಿಮವಾಗಿ, ಪ್ರವೇಶ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಕೋರ್ಸ್ ಶುಲ್ಕವನ್ನು ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಪಾವತಿಸಿ. ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ, christuniversity.in ಗೆ ಭೇಟಿ ನೀಡಿ.\n\n---\n\n(English) Register on the Admission Portal using your email ID, complete the online application form, and pay the application fee. After that, you need to take an entrance test, an assessment, and an interview (if applicable). Check your login page for results — if selected, an offer letter will be attached. Finally, pay the course fee online to complete the admission process. For more info, visit christuniversity.in."
+  },
+  {
+    "id": "E2",
+    "question": "What programmes does Christ University offer?",
+    "category": "ACADEMICS",
+    "related_ids": [
+      "E1",
+      "E3"
+    ],
+    "sample_queries": [
+      "What courses does Christ University offer?",
+      "What degrees can I pursue at Christ University?",
+      "What subjects can I study at Christ University?"
+    ],
+    "pattern": "(?:programme|course|degree|subject).*(?:christ\\s*univ)|(?:christ\\s*univ).*(?:offer|programme|course|degree|curriculum|study)",
+    "answer": "Christ University offers Undergraduate (UG), Postgraduate (PG), and Doctoral (PhD) programmes across diverse disciplines. It also offers Interdisciplinary Masters Programmes that integrate knowledge from multiple fields, fostering critical thinking and research skills. Visit christuniversity.in for the full list."
+  },
+  {
+    "id": "E3",
+    "question": "Is there an entrance test for admission?",
+    "category": "ADMISSION",
+    "related_ids": [
+      "E1",
+      "E4"
+    ],
+    "sample_queries": [
+      "Does Christ University have an entrance exam?",
+      "What entrance exam does Christ University conduct?",
+      "Is an entrance test mandatory for Christ University admission?"
+    ],
+    "pattern": "(?:entrance).*(?:christ|test|exam|admission)|(?:christ\\s*univ).*(?:test|entrance|exam|selection\\s*process)|(?:admission\\s*test).*(?:christ)",
+    "answer": "An entrance test is applicable for certain programmes. After the test, there may also be an assessment and interview round. The requirement varies by programme — check the admission portal or christuniversity.in for programme-specific details."
+  },
+  {
+    "id": "E4",
+    "question": "How do I check my admission result?",
+    "category": "ADMISSION",
+    "related_ids": [
+      "E1",
+      "E3"
+    ],
+    "sample_queries": [
+      "Where can I check my Christ University admission result?",
+      "How do I know if I got admitted to Christ University?",
+      "When will my Christ University admission result be declared?"
+    ],
+    "pattern": "(?:result|status).*(?:christ|admission)|(?:christ\\s*univ).*(?:result|selected|merit\\s*list)|(?:check|know).*(?:admission).*(?:christ|result)|(?:how\\s+do\\s+i\\s+know).*(?:admitted|result)",
+    "answer": "You can check your admission result by logging into the Admission Portal. If you are selected, an offer letter will be attached directly to your login page. For further guidance, visit christuniversity.in."
+  },
+  {
+    "id": "E5",
+    "question": "ಕ್ರೈಸ್ಟ್ ವಿಶ್ವವಿದ್ಯಾಲಯದಲ್ಲಿ ವಿದ್ಯಾರ್ಥಿ ಪರಿಷತ್ತು ಎಂದರೇನು?",
+    "question_english": "What is the Student Council at Christ University?",
+    "category": "STUDENT_LIFE",
+    "related_ids": [
+      "E6",
+      "E7",
+      "E8"
+    ],
+    "sample_queries": [
+      "What does the Student Council do at Christ University?",
+      "How is the Student Council structured at Christ University?",
+      "Does Christ University have a student government or student body?",
+      "ಕ್ರೈಸ್ಟ್ ವಿಶ್ವವಿದ್ಯಾಲಯದ ವಿದ್ಯಾರ್ಥಿ ಪರಿಷತ್ತು ಏನು ಮಾಡುತ್ತದೆ?",
+      "ಕ್ರೈಸ್ಟ್ ವಿಶ್ವವಿದ್ಯಾಲಯದ ವಿದ್ಯಾರ್ಥಿ ಪರಿಷತ್ತು ಹೇಗೆ ರಚಿತವಾಗಿದೆ?",
+      "ಕ್ರೈಸ್ಟ್ ವಿಶ್ವವಿದ್ಯಾಲಯದಲ್ಲಿ ವಿದ್ಯಾರ್ಥಿ ಸಂಘ ಇದೆಯೇ?",
+      "ಕ್ರೈಸ್ಟ್ ವಿಶ್ವವಿದ್ಯಾಲಯದ ವಿದ್ಯಾರ್ಥಿ ಪರಿಷತ್ತಿನ ಉದ್ದೇಶ ಏನು?",
+      "ಕ್ರೈಸ್ಟ್ ವಿಶ್ವವಿದ್ಯಾಲಯದಲ್ಲಿ ವಿದ್ಯಾರ್ಥಿ ಪ್ರತಿನಿಧಿ ಸಂಸ್ಥೆ ಇದೆಯೇ?"
+    ],
+    "pattern": "(?:student\\s*council|student\\s*body|student\\s*government|student\\s*union|student\\s*representative).*(?:christ)|(ವಿದ್ಯಾರ್ಥಿ\\s*ಪರಿಷತ್ತು|ವಿದ್ಯಾರ್ಥಿ\\s*ಸಂಘ|ವಿದ್ಯಾರ್ಥಿ\\s*ಪ್ರತಿನಿಧಿ).*(ಕ್ರೈಸ್ಟ್|ಏನು|ಉದ್ದೇಶ)|(ಕ್ರೈಸ್ಟ್).*(ವಿದ್ಯಾರ್ಥಿ\\s*ಪರಿಷತ್ತು|ವಿದ್ಯಾರ್ಥಿ\\s*ಸಂಘ|ವಿದ್ಯಾರ್ಥಿ\\s*ಪ್ರತಿನಿಧಿ)|(?:does\\s+christ).*(?:student\\s*(?:government|body|council))",
+    "answer": "ವಿದ್ಯಾರ್ಥಿ ಪರಿಷತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳ ಕಲ್ಯಾಣವನ್ನು ಉತ್ತೇಜಿಸುವ ಮೂಲಕ, ಬೆಳವಣಿಗೆ ಮತ್ತು ನಾಯಕತ್ವದ ಅವಕಾಶಗಳನ್ನು ಸೃಷ್ಟಿಸುವ ಮೂಲಕ ಮತ್ತು ವಿದ್ಯಾರ್ಥಿಗಳು ಮತ್ತು ಆಡಳಿತದ ನಡುವೆ ಸಂವಹನವನ್ನು ಸೇತುವೆ ಮಾಡುವ ಮೂಲಕ ಒಟ್ಟಾರೆ ಪದವಿ ಅನುಭವವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ. ಇದು ವಿವಿಧ ವಿಭಾಗಗಳ 64 ವಿದ್ಯಾರ್ಥಿ ಪ್ರತಿನಿಧಿಗಳನ್ನು ಒಳಗೊಂಡಿರುವ ವಿಶ್ವವಿದ್ಯಾಲಯ ಮಟ್ಟದ ವಿದ್ಯಾರ್ಥಿ ಪರಿಷತ್ತು (USC) ನೇತೃತ್ವದಲ್ಲಿದೆ. christuniversity.in ನಲ್ಲಿ ಇನ್ನಷ್ಟು.\n\n---\n\n(English) The Student Council enhances the overall graduate experience by promoting student welfare, creating growth and leadership opportunities, and bridging communication between students and the administration. It is led by the University Level Student Council (USC), comprising 64 student representatives from various departments. More at christuniversity.in."
+  },
+  {
+    "id": "E6",
+    "question": "What is Daksh?",
+    "category": "STUDENT_LIFE",
+    "related_ids": [
+      "E5",
+      "E8"
+    ],
+    "sample_queries": [
+      "What is the Daksh programme at Christ University?",
+      "What does Daksh do at Christ University?",
+      "How can I join Daksh at Christ University?"
+    ],
+    "pattern": "(?:daksh).*(?:christ|programme|activity|what|join)|(?:christ).*(?:daksh)|(?:what).*(?:daksh)|^daksh\\s*[?!.]*$",
+    "answer": "Daksh is the Student Council's annual education and career fair — their flagship event. It provides a platform for students to explore career options, with departmental stalls and career dialogues by eminent personalities over two days. The council also developed the \"Accord\" app to make registrations during Daksh paperless and hassle-free."
+  },
+  {
+    "id": "E7",
+    "question": "Does the Student Council meet with the Vice Chancellor?",
+    "category": "STUDENT_LIFE",
+    "related_ids": [
+      "E5"
+    ],
+    "sample_queries": [
+      "How often does the Student Council meet with the Vice Chancellor?",
+      "What is discussed in the Student Council meeting with the Vice Chancellor?",
+      "Can the Student Council raise student grievances with the Vice Chancellor?"
+    ],
+    "pattern": "(?:student\\s*council).*(?:vice\\s*chancellor|vc)|(?:vice\\s*chancellor|vc).*(?:student\\s*council)|(?:council\\s*meet).*(?:christ)|(?:grievance).*(?:vice\\s*chancellor).*(?:christ)",
+    "answer": "Yes. University Level Student Council members meet the Vice Chancellor once every semester. The Pro-Vice Chancellor, Registrar, Deans, and Student Council Coordinators also participate in these meetings to discuss academic suggestions and feedback."
+  },
+  {
+    "id": "E8",
+    "question": "What events does the Student Council organise?",
+    "category": "STUDENT_LIFE",
+    "related_ids": [
+      "E5",
+      "E6"
+    ],
+    "sample_queries": [
+      "What programmes does the Student Council conduct at Christ University?",
+      "Does the Student Council organise cultural events at Christ University?",
+      "What competitions does the Student Council conduct at Christ University?"
+    ],
+    "pattern": "(?:student\\s*council).*(?:event|organis|fest|competition|programme|activit).*(?:christ)|(?:christ).*(?:council).*(?:organis|event|fest)|(?:council).*(?:event|organis|conduct)",
+    "answer": "The Student Council organises several events including Daksh (annual education fair), Gratitude Week (held in March), Bhasha Utsav & Ethnic Day, and Teachers Day celebrations. They also initiated the Sky Walk project on campus for student and pedestrian safety."
+  },
+  {
+    "id": "E9",
+    "question": "ಕ್ರಿಸ್ಟ್ ಇನ್ಕ್ಯುಬೇಷನ್ ಮತ್ತು ಕನ್ಸಲ್ಟೆನ್ಸಿ ಫೌಂಡೇಶನ್ ಎಂದರೇನು?",
+    "question_english": "What is CHRIST Incubation and Consultancy Foundation?",
+    "category": "STUDENT_LIFE",
+    "related_ids": [
+      "E10",
+      "E11"
+    ],
+    "sample_queries": [
+      "What does CHRIST Incubation and Consultancy Foundation do?",
+      "Does CICF support startups at Christ University?",
+      "What is the purpose of CHRIST Incubation and Consultancy Foundation?",
+      "ಕ್ರಿಸ್ಟ್ ಇನ್ಕ್ಯುಬೇಷನ್ ಮತ್ತು ಕನ್ಸಲ್ಟೆನ್ಸಿ ಫೌಂಡೇಶನ್ ಏನು ಮಾಡುತ್ತದೆ?",
+      "CICF ಕ್ರೈಸ್ಟ್ ವಿಶ್ವವಿದ್ಯಾಲಯದಲ್ಲಿ ಸ್ಟಾರ್ಟಪ್‌ಗಳನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆಯೇ?",
+      "ಕ್ರಿಸ್ಟ್ ಇನ್ಕ್ಯುಬೇಷನ್ ಮತ್ತು ಕನ್ಸಲ್ಟೆನ್ಸಿ ಫೌಂಡೇಶನ್‌ನ ಉದ್ದೇಶ ಏನು?",
+      "CICF ವಿದ್ಯಾರ್ಥಿ ಉದ್ಯಮಿಗಳಿಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ?",
+      "ಕ್ರೈಸ್ಟ್ ವಿಶ್ವವಿದ್ಯಾಲಯದಲ್ಲಿ CICF ಯಾವ ಸೇವೆಗಳನ್ನು ನೀಡುತ್ತದೆ?"
+    ],
+    "pattern": "(?:cicf|incubation\\s*(?:and)?\\s*consultancy).*(?:christ|foundation|what)|(?:christ).*(?:incubation|cicf)|(?:startup).*(?:christ\\s*incubation)|(ಇನ್ಕ್ಯುಬೇಷನ್|ಕನ್ಸಲ್ಟೆನ್ಸಿ).*(ಕ್ರೈಸ್ಟ್|ಫೌಂಡೇಶನ್)|(ಕ್ರೈಸ್ಟ್).*(ಇನ್ಕ್ಯುಬೇಷನ್|CICF)|(CICF).*(ಕ್ರೈಸ್ಟ್|ಸ್ಟಾರ್ಟಪ್|ವಿದ್ಯಾರ್ಥಿ|ಸಹಾಯ|ಸೇವೆ)|^cicf\\s*[?!.]*$",
+    "answer": "ಕ್ರಿಸ್ಟ್ ಇನ್ಕ್ಯುಬೇಷನ್ ಮತ್ತು ಕನ್ಸಲ್ಟೆನ್ಸಿ ಫೌಂಡೇಶನ್ (CICF) 2019 ರಲ್ಲಿ ಸ್ಥಾಪನೆಯಾದ ಕ್ರೈಸ್ಟ್ ವಿಶ್ವವಿದ್ಯಾಲಯದ ವ್ಯವಹಾರ ಸಲಹಾ ವಿಭಾಗವಾಗಿದೆ. ಇದು ಸಂಶೋಧನೆ-ಆಧಾರಿತ, ಫಲಿತಾಂಶ-ಆಧಾರಿತ ಪರಿಹಾರಗಳನ್ನು ನೀಡಲು ಶೈಕ್ಷಣಿಕ ಪರಿಣತಿಯನ್ನು ಉದ್ಯಮ ಜ್ಞಾನದೊಂದಿಗೆ ಸಂಯೋಜಿಸುತ್ತದೆ. 5+ ವರ್ಷಗಳ ಅನುಭವ, 250+ ಯೋಜನೆಗಳು ಮತ್ತು 260+ ಕ್ಲೈಂಟ್‌ಗಳೊಂದಿಗೆ, ಇದು ಸ್ಟಾರ್ಟ್‌ಅಪ್‌ಗಳು ಮತ್ತು ಉದ್ಯಮಗಳು ಬೆಳವಣಿಗೆಯನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. cicf.christuniversity.in ನಲ್ಲಿ ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ.\n\n---\n\n(English) CHRIST Incubation and Consultancy Foundation (CICF) is the business consultancy arm of Christ University, established in 2019. It combines academic expertise with industry knowledge to deliver research-driven, result-oriented solutions. With 5+ years of experience, 250+ projects, and 260+ clients, it helps startups and enterprises unlock growth. Learn more at cicf.christuniversity.in."
+  },
+  {
+    "id": "E10",
+    "question": "What services does CICF offer?",
+    "category": "STUDENT_LIFE",
+    "related_ids": [
+      "E9",
+      "E11"
+    ],
+    "sample_queries": [
+      "What does CICF provide at Christ University?",
+      "Does CICF offer mentorship services at Christ University?",
+      "Can CICF help me turn my idea into a business at Christ University?"
+    ],
+    "pattern": "(?:cicf).*(?:service|offer|provide|support|mentor|startup|consultancy|training|help|idea|business)|(?:service|offer).*(?:cicf)|(?:can).*(?:cicf).*(?:help|idea|business)",
+    "answer": "CICF offers four main service areas: Core Consultancy Services (business strategy, custom software, market research), Organisational Training (leadership programs, e-learning design), Research-Based Consultancy (industry analysis, field research), and Government Projects (policy development, impact assessments). Visit cicf.christuniversity.in/expertise for details."
+  },
+  {
+    "id": "E11",
+    "question": "Does Christ University have a consultancy for government projects?",
+    "category": "STUDENT_LIFE",
+    "related_ids": [
+      "E9",
+      "E10"
+    ],
+    "sample_queries": [
+      "Does Christ University offer consultancy services for government projects?",
+      "Does Christ University collaborate with government bodies on projects?",
+      "Can the government approach Christ University for consultancy help?"
+    ],
+    "pattern": "(?:christ).*(?:consultancy|cicf).*(?:government)|(?:government).*(?:consultancy|project|approach).*(?:christ)|(?:cicf).*(?:government)|(?:government\\s*project).*(?:christ)|(?:christ).*(?:government\\s*project|policy\\s*consultancy)|(?:does\\s+christ).*(?:collaborat|consultancy).*(?:government)|(?:can\\s+the\\s+government).*(?:christ|consultancy)",
+    "answer": "Yes. Through CICF, Christ University provides public sector consulting that includes policy development, large-scale project execution, and impact assessments and audits for government clients. More information at cicf.christuniversity.in."
+  },
+  {
+    "id": "E12",
+    "question": "ಕ್ರೈಸ್ಟ್ ಯೂನಿವರ್ಸಿಟಿ ಗ್ರಂಥಾಲಯದಲ್ಲಿ ಯಾವ ಸಂಪನ್ಮೂಲಗಳು ಲಭ್ಯವಿದೆ?",
+    "question_english": "What resources are available at the Christ University Library?",
+    "category": "LIBRARY",
+    "related_ids": [
+      "E13",
+      "E14",
+      "E15"
+    ],
+    "sample_queries": [
+      "What does the Christ University Library have to offer?",
+      "What books and journals are available at the Christ University Library?",
+      "What digital resources does the Christ University Library offer?",
+      "ಕ್ರೈಸ್ಟ್ ಯೂನಿವರ್ಸಿಟಿ ಗ್ರಂಥಾಲಯದಲ್ಲಿ ಏನು ಸಿಗುತ್ತದೆ?",
+      "ಕ್ರೈಸ್ಟ್ ಯೂನಿವರ್ಸಿಟಿ ಗ್ರಂಥಾಲಯದಲ್ಲಿ ಯಾವ ಪುಸ್ತಕಗಳು ಇವೆ?",
+      "ಕ್ರೈಸ್ಟ್ ಯೂನಿವರ್ಸಿಟಿ ಗ್ರಂಥಾಲಯದಲ್ಲಿ ಡಿಜಿಟಲ್ ಸಂಪನ್ಮೂಲಗಳು ಇವೆಯೇ?"
+    ],
+    "pattern": "(?:christ).*(?:library).*(?:resource|book|journal|collection|offer|what)|(?:library).*(?:resource|book).*(?:christ)|(?:what).*(?:christ).*(?:library)|(ಗ್ರಂಥಾಲಯ).*(ಸಂಪನ್ಮೂಲ|ಪುಸ್ತಕ|ಲಭ್ಯ|ಸಿಗುತ್ತದೆ|ಇವೆ).*(ಕ್ರೈಸ್ಟ್)?|(ಕ್ರೈಸ್ಟ್).*(ಗ್ರಂಥಾಲಯ).*(ಸಂಪನ್ಮೂಲ|ಪುಸ್ತಕ|ಸಂಗ್ರಹ|ಲಭ್ಯ|ಏನು)",
+    "answer": "ಗ್ರಂಥಾಲಯ ಮತ್ತು ಮಾಹಿತಿ ಕೇಂದ್ರವು ದತ್ತಸಂಚಯಗಳು, ಸಂಖ್ಯಾಶಾಸ್ತ್ರೀಯ ಮತ್ತು ಗ್ರಂಥಸೂಚಿ ದತ್ತಸಂಚಯಗಳು, ಇ-ಪುಸ್ತಕಗಳು, ಇ-ನಿಯತಕಾಲಿಕೆಗಳು, ನಿಯತಕಾಲಿಕೆಗಳು, ಜರ್ನಲ್‌ಗಳು, ಮುಕ್ತ ಪ್ರವೇಶ ಸಾಮಗ್ರಿಗಳು, ಶೋಧಗಂಗಾ, ಬರವಣಿಗೆ ಪರಿಕರಗಳು, ಡಿಜಿಟಲ್ ಭಂಡಾರ, INFLIBNET, IRINS, VIDWAN, ಮತ್ತು DELNET+INDCAT, ಮತ್ತು ಇತರ ಹಲವು ಸಂಪನ್ಮೂಲಗಳಿಗೆ ಪ್ರವೇಶವನ್ನು ಒದಗಿಸುತ್ತದೆ. library.christuniversity.in ಗೆ ಭೇಟಿ ನೀಡಿ.\n\n---\n\n(English) The Library and Information Centre provides access to databases, statistical and bibliographic databases, e-books, e-journals, magazines, journals, open access materials, Shodhganga, writing tools, a digital repository, INFLIBNET, IRINS, VIDWAN, and DELNET+INDCAT, among many other resources. Visit library.christuniversity.in."
+  },
+  {
+    "id": "E13",
+    "question": "Can I browse library resources by subject?",
+    "category": "LIBRARY",
+    "related_ids": [
+      "E12",
+      "E14"
+    ],
+    "sample_queries": [
+      "Is there a subject-wise catalogue at the Christ University Library?",
+      "How do I search for resources by subject at the Christ University Library?",
+      "Are books arranged subject-wise at the Christ University Library?"
+    ],
+    "pattern": "(?:library).*(?:subject).*(?:christ|browse|search|catalogue|wise)|(?:browse|search).*(?:subject).*(?:christ\\s*library|library)|(?:subject[\\s-]*wise).*(?:christ\\s*library|library|catalogue)|(?:books?\\s*arranged?).*(?:subject)",
+    "answer": "Yes. The library website allows you to browse resources by subject including Architecture, Commerce, Computer Science, Law, Management, Psychology, Social Work, Physics, Mathematics, Tourism, and many more. Visit library.christuniversity.in to explore."
+  },
+  {
+    "id": "E14",
+    "question": "How do I access library resources remotely?",
+    "category": "LIBRARY",
+    "related_ids": [
+      "E12",
+      "E15"
+    ],
+    "sample_queries": [
+      "Can I access Christ University library resources from home?",
+      "How do I log in to the Christ University library portal remotely?",
+      "Do I need a VPN to access Christ University library resources remotely?"
+    ],
+    "pattern": "(?:library).*(?:remote|home|online|portal|vpn).*(?:christ|access)|(?:remote\\s*access).*(?:christ\\s*library|library)|(?:christ).*(?:e-?library|library.*remote|library.*online|library.*portal)|(?:can\\s+i\\s+access).*(?:christ).*(?:library).*(?:from\\s+home|remote)",
+    "answer": "The Christ University Library provides a Remote Access option on their website. Students can log in through the Library Login portal to access e-resources, databases, and digital materials from outside the campus. Visit library.christuniversity.in for instructions."
+  },
+  {
+    "id": "E15",
+    "question": "Does the library provide access to research and thesis databases?",
+    "category": "LIBRARY",
+    "related_ids": [
+      "E12",
+      "E14"
+    ],
+    "sample_queries": [
+      "Does the Christ University library have research databases?",
+      "Can I access thesis databases through the Christ University library?",
+      "Which research databases is Christ University library subscribed to?"
+    ],
+    "pattern": "(?:library).*(?:database|research|thesis|journal\\s*access|shodhganga).*(?:christ|access)|(?:thesis\\s*database).*(?:christ)|(?:christ).*(?:journal\\s*access|research\\s*paper).*(?:library)|(?:research\\s*database).*(?:christ\\s*library|library)|(?:does).*(?:christ).*(?:library).*(?:database|research|thesis)",
+    "answer": "Yes. The library provides access to Shodhganga (a reservoir of Indian theses and dissertations), E-ShodhSindhu, bibliographic databases, and other research tools. It also has institutional memberships and writing tools to support student and faculty research. More at library.christuniversity.in."
+  }
+]
