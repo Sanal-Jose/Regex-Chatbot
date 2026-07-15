@@ -136,12 +136,3 @@ Each JSON file contains entries with:
 Only `id`, `question`, `pattern`, and `answer` are required. All other fields are optional enhancements.
 
 ---
-
-## 👥 Team Members
-
-| Name       | File        | IDs    | Languages          |
-|------------|-------------|--------|-------------------|
-| Defitha    | `qa_1.json` | D1–D15 | English, Tamil     |
-| Evengiline | `qa_2.json` | E1–E15 | English, Kannada   |
-| Sanal      | `qa_3.json` | 1–17   | English, Malayalam |
-| Nasreen    | `qa_4.json` | N1–N15 | English, Hindi     |
